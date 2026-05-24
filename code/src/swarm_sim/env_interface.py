@@ -73,13 +73,17 @@ class SwarmLearningEnv:
             )
             assigned_victim = current_assignments[idx]
             position = self.simulator.uav_positions[idx]
+            if self.config.gps_noise_std > 0.0:
+                obs_position = position + self.simulator.rng.normal(0.0, self.config.gps_noise_std, size=2)
+            else:
+                obs_position = position
             velocity = self.simulator.uav_velocities[idx]
             cell_x = min(int(position[0] / (self.config.width / self.config.grid_size)), self.config.grid_size - 1)
             cell_y = min(int(position[1] / (self.config.height / self.config.grid_size)), self.config.grid_size - 1)
             local_coverage_value = float(self.simulator.coverage[cell_y, cell_x])
-            peak_delta = (peak_xy - position) / np.array([self.config.width, self.config.height], dtype=float)
-            gap_delta = (gap_target - position) / np.array([self.config.width, self.config.height], dtype=float)
-            global_peak_delta = (global_peak_xy - position) / np.array([self.config.width, self.config.height], dtype=float)
+            peak_delta = (peak_xy - obs_position) / np.array([self.config.width, self.config.height], dtype=float)
+            gap_delta = (gap_target - obs_position) / np.array([self.config.width, self.config.height], dtype=float)
+            global_peak_delta = (global_peak_xy - obs_position) / np.array([self.config.width, self.config.height], dtype=float)
             last_action = self.last_actions[idx]
             step_fraction = float(self.simulator.steps_taken / max(self.config.steps, 1))
             lane_fraction = float((idx + 0.5) / self.config.num_uavs)
@@ -90,8 +94,8 @@ class SwarmLearningEnv:
                 else 0.0
             )
             vector = [
-                float(position[0] / self.config.width),
-                float(position[1] / self.config.height),
+                float(obs_position[0] / self.config.width),
+                float(obs_position[1] / self.config.height),
                 float(velocity[0] / max(self.config.max_speed, 1.0)),
                 float(velocity[1] / max(self.config.max_speed, 1.0)),
                 float(peak_xy[0] / self.config.width),
@@ -151,6 +155,14 @@ class SwarmLearningEnv:
             residual = np.asarray(actions, dtype=float)
             confidences = np.array([obs.belief_confidence for obs in self._build_observations()])
             # soft gate: sigmoid(k * (c - tau)), smoothly interpolates 0->1 around threshold
+            k = 20.0
+            gates = 1.0 / (1.0 + np.exp(-k * (confidences - self.confidence_gate_threshold)))
+            applied_actions = np.clip(expert + self.residual_scale * gates[:, None] * residual, -1.0, 1.0)
+        elif actions is not None and self.control_mode == "learnable_tau_gated":
+            # tau is passed via confidence_gate_threshold, extracted from theta by training script
+            expert = self.simulator.current_builtin_actions() / max(self.config.max_speed, 1.0)
+            residual = np.asarray(actions, dtype=float)
+            confidences = np.array([obs.belief_confidence for obs in self._build_observations()])
             k = 20.0
             gates = 1.0 / (1.0 + np.exp(-k * (confidences - self.confidence_gate_threshold)))
             applied_actions = np.clip(expert + self.residual_scale * gates[:, None] * residual, -1.0, 1.0)

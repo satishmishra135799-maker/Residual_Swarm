@@ -172,7 +172,13 @@ class MaritimeSwarmSimulator:
 
     def _detect(self) -> tuple[np.ndarray, list[list[int]]]:
         distances = self._pairwise_distances()
-        visible = distances <= self.config.sensing_radius
+        if self.config.detection_decay_rate > 0.0:
+            ratio = distances / self.config.sensing_radius
+            probs = np.exp(-self.config.detection_decay_rate * ratio ** 2)
+            probs[distances > self.config.sensing_radius] = 0.0
+            visible = self.rng.random(distances.shape) < probs
+        else:
+            visible = distances <= self.config.sensing_radius
         detections = np.any(visible, axis=1)
         detected_indices = [np.flatnonzero(visible[idx]).tolist() for idx in range(self.config.num_uavs)]
         return detections, detected_indices
@@ -463,6 +469,9 @@ class MaritimeSwarmSimulator:
 
         for idx in range(self.config.num_uavs):
             action = actions[idx]
+            if self.config.actuation_delay > 0.0:
+                d = self.config.actuation_delay
+                action = (1.0 - d) * action + d * self.uav_velocities[idx]
             self.uav_velocities[idx] = action
             self.uav_positions[idx] = self._clip_position(self.uav_positions[idx] + action)
 
@@ -510,6 +519,9 @@ class MaritimeSwarmSimulator:
             incoming = []
             for neighbor in link_neighbors[idx]:
                 if neighbor in outgoing_messages:
+                    # packet drop: skip delivery with probability packet_drop_rate
+                    if self.config.packet_drop_rate > 0.0 and self.rng.random() < self.config.packet_drop_rate:
+                        continue
                     incoming.append(outgoing_messages[neighbor])
                     self.total_messages_delivered += 1
             fused_beliefs.append(fuse_messages(local_beliefs[idx], incoming))

@@ -1,0 +1,297 @@
+{
+  "history": [
+    {
+      "update": 1,
+      "elapsed": 5,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.06518571428571429,
+          "tracking_std": 0.06327358800301679,
+          "detection_rate": 0.11495714285714284,
+          "coverage_mean": 0.2855285714285714
+        },
+        "medium": {
+          "tracking_ratio": 0.1934857142857143,
+          "tracking_std": 0.11499211685491972,
+          "detection_rate": 0.10275714285714287,
+          "coverage_mean": 0.2557
+        },
+        "hard": {
+          "tracking_ratio": 0.03798571428571428,
+          "tracking_std": 0.048236631858590874,
+          "detection_rate": 0.009914285714285714,
+          "coverage_mean": 0.20755714285714283
+        }
+      }
+    },
+    {
+      "update": 50,
+      "elapsed": 139,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.03660000000000001,
+          "tracking_std": 0.009702871445387406,
+          "detection_rate": 0.04574285714285714,
+          "coverage_mean": 0.09462857142857142
+        },
+        "medium": {
+          "tracking_ratio": 0.06668571428571428,
+          "tracking_std": 0.0070286004645160995,
+          "detection_rate": 0.0251,
+          "coverage_mean": 0.053157142857142854
+        },
+        "hard": {
+          "tracking_ratio": 0.07432857142857142,
+          "tracking_std": 0.008216310309502727,
+          "detection_rate": 0.02267142857142857,
+          "coverage_mean": 0.03695714285714286
+        }
+      }
+    },
+    {
+      "update": 100,
+      "elapsed": 280,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.048214285714285716,
+          "tracking_std": 0.005520204077860211,
+          "detection_rate": 0.028342857142857145,
+          "coverage_mean": 0.06321428571428571
+        },
+        "medium": {
+          "tracking_ratio": 0.05009999999999999,
+          "tracking_std": 0.00406201920231798,
+          "detection_rate": 0.020571428571428574,
+          "coverage_mean": 0.037714285714285714
+        },
+        "hard": {
+          "tracking_ratio": 0.0513,
+          "tracking_std": 0.002055654223286174,
+          "detection_rate": 0.01347142857142857,
+          "coverage_mean": 0.023414285714285714
+        }
+      }
+    },
+    {
+      "update": 150,
+      "elapsed": 417,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.0491,
+          "tracking_std": 0.004024922359499622,
+          "detection_rate": 0.029685714285714284,
+          "coverage_mean": 0.06104285714285714
+        },
+        "medium": {
+          "tracking_ratio": 0.05759999999999999,
+          "tracking_std": 0.0017320508075688787,
+          "detection_rate": 0.022385714285714287,
+          "coverage_mean": 0.035057142857142856
+        },
+        "hard": {
+          "tracking_ratio": 0.044828571428571426,
+          "tracking_std": 0.0026412736568959014,
+          "detection_rate": 0.013271428571428573,
+          "coverage_mean": 0.021571428571428575
+        }
+      }
+    },
+    {
+      "update": 200,
+      "elapsed": 553,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.049114285714285714,
+          "tracking_std": 0.005216027106477709,
+          "detection_rate": 0.022557142857142855,
+          "coverage_mean": 0.06358571428571427
+        },
+        "medium": {
+          "tracking_ratio": 0.04460000000000001,
+          "tracking_std": 0.00360555127546399,
+          "detection_rate": 0.018714285714285715,
+          "coverage_mean": 0.03415714285714286
+        },
+        "hard": {
+          "tracking_ratio": 0.03831428571428571,
+          "tracking_std": 0.004435386461315912,
+          "detection_rate": 0.0099,
+          "coverage_mean": 0.021157142857142857
+        }
+      }
+    },
+    {
+      "update": 250,
+      "elapsed": 691,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.04462857142857143,
+          "tracking_std": 0.0070448997327781735,
+          "detection_rate": 0.03214285714285715,
+          "coverage_mean": 0.06917142857142858
+        },
+        "medium": {
+          "tracking_ratio": 0.053599999999999995,
+          "tracking_std": 0.002449489742783178,
+          "detection_rate": 0.019342857142857144,
+          "coverage_mean": 0.039542857142857143
+        },
+        "hard": {
+          "tracking_ratio": 0.040257142857142866,
+          "tracking_std": 0.002919812686192211,
+          "detection_rate": 0.01102857142857143,
+          "coverage_mean": 0.021985714285714282
+        }
+      }
+    },
+    {
+      "update": 300,
+      "elapsed": 830,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.03838571428571429,
+          "tracking_std": 0.010793176226728835,
+          "detection_rate": 0.04417142857142858,
+          "coverage_mean": 0.06634285714285715
+        },
+        "medium": {
+          "tracking_ratio": 0.03308571428571429,
+          "tracking_std": 0.009162100285013968,
+          "detection_rate": 0.019457142857142857,
+          "coverage_mean": 0.0376
+        },
+        "hard": {
+          "tracking_ratio": 0.02532857142857143,
+          "tracking_std": 0.00504287737753933,
+          "detection_rate": 0.008028571428571428,
+          "coverage_mean": 0.023257142857142858
+        }
+      }
+    },
+    {
+      "update": 350,
+      "elapsed": 971,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.03837142857142857,
+          "tracking_std": 0.010810935506727078,
+          "detection_rate": 0.040157142857142857,
+          "coverage_mean": 0.06384285714285713
+        },
+        "medium": {
+          "tracking_ratio": 0.045099999999999994,
+          "tracking_std": 0.00291547594742265,
+          "detection_rate": 0.020157142857142856,
+          "coverage_mean": 0.036
+        },
+        "hard": {
+          "tracking_ratio": 0.03212857142857143,
+          "tracking_std": 0.0019158841940205994,
+          "detection_rate": 0.009042857142857142,
+          "coverage_mean": 0.020514285714285714
+        }
+      }
+    },
+    {
+      "update": 400,
+      "elapsed": 1109,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.1115857142857143,
+          "tracking_std": 0.026177876623015014,
+          "detection_rate": 0.11184285714285715,
+          "coverage_mean": 0.15620000000000003
+        },
+        "medium": {
+          "tracking_ratio": 0.22907142857142856,
+          "tracking_std": 0.027977884852438836,
+          "detection_rate": 0.11960000000000001,
+          "coverage_mean": 0.25692857142857145
+        },
+        "hard": {
+          "tracking_ratio": 0.2600571428571429,
+          "tracking_std": 0.04582266616745338,
+          "detection_rate": 0.07677142857142857,
+          "coverage_mean": 0.2004714285714286
+        }
+      }
+    },
+    {
+      "update": 450,
+      "elapsed": 1247,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.1509,
+          "tracking_std": 0.04596722434828662,
+          "detection_rate": 0.098,
+          "coverage_mean": 0.09515714285714284
+        },
+        "medium": {
+          "tracking_ratio": 0.05412857142857143,
+          "tracking_std": 0.02263440581350905,
+          "detection_rate": 0.05732857142857143,
+          "coverage_mean": 0.08435714285714287
+        },
+        "hard": {
+          "tracking_ratio": 0.27112857142857144,
+          "tracking_std": 0.04360051488181285,
+          "detection_rate": 0.06482857142857143,
+          "coverage_mean": 0.09197142857142858
+        }
+      }
+    },
+    {
+      "update": 500,
+      "elapsed": 1400,
+      "scenarios": {
+        "default": {
+          "tracking_ratio": 0.1741142857142857,
+          "tracking_std": 0.0538182504512424,
+          "detection_rate": 0.1634,
+          "coverage_mean": 0.13082857142857143
+        },
+        "medium": {
+          "tracking_ratio": 0.1955,
+          "tracking_std": 0.030161328125361358,
+          "detection_rate": 0.09314285714285712,
+          "coverage_mean": 0.10988571428571428
+        },
+        "hard": {
+          "tracking_ratio": 0.1513,
+          "tracking_std": 0.02777681458647533,
+          "detection_rate": 0.05155714285714286,
+          "coverage_mean": 0.11462857142857143
+        }
+      }
+    }
+  ],
+  "final": {
+    "default": {
+      "tracking_ratio": 0.1741142857142857,
+      "tracking_std": 0.0538182504512424,
+      "detection_rate": 0.1634,
+      "coverage_mean": 0.13082857142857143
+    },
+    "medium": {
+      "tracking_ratio": 0.1955,
+      "tracking_std": 0.030161328125361358,
+      "detection_rate": 0.09314285714285712,
+      "coverage_mean": 0.10988571428571428
+    },
+    "hard": {
+      "tracking_ratio": 0.1513,
+      "tracking_std": 0.02777681458647533,
+      "detection_rate": 0.05155714285714286,
+      "coverage_mean": 0.11462857142857143
+    }
+  },
+  "control_mode": "direct",
+  "n_params": 20165,
+  "hyperparams": {
+    "lr": 0.0001,
+    "hidden": 64,
+    "updates": 500,
+    "clip": 0.2,
+    "epochs": 4
+  }
+}

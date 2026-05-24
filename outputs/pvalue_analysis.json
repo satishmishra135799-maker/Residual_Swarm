@@ -1,0 +1,53 @@
+{
+  "default": {
+    "tracking_ratio": {
+      "hybrid_mean": 0.8685,
+      "fixed_mean": 0.8767,
+      "p_value": 0.0
+    },
+    "first_detection_step": {
+      "hybrid_mean": 2.8333,
+      "fixed_mean": 2.7333,
+      "p_value": 0.083075
+    },
+    "coverage_mean": {
+      "hybrid_mean": 0.4662,
+      "fixed_mean": 0.4622,
+      "p_value": 6e-05
+    }
+  },
+  "medium": {
+    "tracking_ratio": {
+      "hybrid_mean": 0.8791,
+      "fixed_mean": 0.9035,
+      "p_value": 0.011881
+    },
+    "first_detection_step": {
+      "hybrid_mean": 1.8333,
+      "fixed_mean": 1.5667,
+      "p_value": 0.008904
+    },
+    "coverage_mean": {
+      "hybrid_mean": 0.462,
+      "fixed_mean": 0.4326,
+      "p_value": 0.0
+    }
+  },
+  "hard": {
+    "tracking_ratio": {
+      "hybrid_mean": 0.9053,
+      "fixed_mean": 0.9116,
+      "p_value": 0.0
+    },
+    "first_detection_step": {
+      "hybrid_mean": 3.3667,
+      "fixed_mean": 2.3667,
+      "p_value": 0.0
+    },
+    "coverage_mean": {
+      "hybrid_mean": 0.2955,
+      "fixed_mean": 0.2669,
+      "p_value": 4.4e-05
+    }
+  }
+}

@@ -1,0 +1,7348 @@
+{
+  "combined_profiles": {
+    "ideal": {
+      "default": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2272,
+            "std": 0.0037,
+            "min": 0.2219,
+            "max": 0.2344,
+            "ci95_low": 0.2259,
+            "ci95_high": 0.2285
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8685,
+            "std": 0.0083,
+            "min": 0.8562,
+            "max": 0.8938,
+            "ci95_low": 0.8656,
+            "ci95_high": 0.8715
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 300.5,
+            "std": 2.9096,
+            "min": 293.0,
+            "max": 311.0,
+            "ci95_low": 299.4588,
+            "ci95_high": 301.5412
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 240.5667,
+            "std": 35.229,
+            "min": 191.0,
+            "max": 327.0,
+            "ci95_low": 227.9601,
+            "ci95_high": 253.1732
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4662,
+            "std": 0.0082,
+            "min": 0.4502,
+            "max": 0.4829,
+            "ci95_low": 0.4633,
+            "ci95_high": 0.4691
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.8333,
+            "std": 0.6477,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 2.6015,
+            "ci95_high": 3.0651
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2283,
+            "std": 0.0031,
+            "min": 0.2188,
+            "max": 0.2344,
+            "ci95_low": 0.2272,
+            "ci95_high": 0.2294
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8767,
+            "std": 0.0105,
+            "min": 0.85,
+            "max": 0.9062,
+            "ci95_low": 0.8729,
+            "ci95_high": 0.8804
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 304.2,
+            "std": 3.6427,
+            "min": 294.0,
+            "max": 314.0,
+            "ci95_low": 302.8965,
+            "ci95_high": 305.5035
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 241.7667,
+            "std": 35.5185,
+            "min": 187.0,
+            "max": 319.0,
+            "ci95_low": 229.0565,
+            "ci95_high": 254.4768
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4622,
+            "std": 0.0082,
+            "min": 0.4481,
+            "max": 0.4828,
+            "ci95_low": 0.4593,
+            "ci95_high": 0.4651
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.7333,
+            "std": 0.7397,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 2.4686,
+            "ci95_high": 2.998
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2313,
+            "std": 0.003,
+            "min": 0.2266,
+            "max": 0.2375,
+            "ci95_low": 0.2302,
+            "ci95_high": 0.2324
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8812,
+            "std": 0.0082,
+            "min": 0.8688,
+            "max": 0.9062,
+            "ci95_low": 0.8783,
+            "ci95_high": 0.8842
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 2,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 304.1,
+            "std": 2.7209,
+            "min": 298.0,
+            "max": 314.0,
+            "ci95_low": 303.1263,
+            "ci95_high": 305.0737
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 254.2,
+            "std": 32.2676,
+            "min": 205.0,
+            "max": 319.0,
+            "ci95_low": 242.6532,
+            "ci95_high": 265.7468
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4555,
+            "std": 0.0063,
+            "min": 0.444,
+            "max": 0.4651,
+            "ci95_low": 0.4533,
+            "ci95_high": 0.4578
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.8667,
+            "std": 0.6814,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 2.6228,
+            "ci95_high": 3.1105
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "medium": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1875,
+            "std": 0.0102,
+            "min": 0.1691,
+            "max": 0.2035,
+            "ci95_low": 0.1839,
+            "ci95_high": 0.1911
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8791,
+            "std": 0.0455,
+            "min": 0.8,
+            "max": 0.9158,
+            "ci95_low": 0.8628,
+            "ci95_high": 0.8953
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.1333,
+            "std": 0.5713,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": -0.0711,
+            "ci95_high": 0.3378
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.1,
+            "std": 0.4026,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.0441,
+            "ci95_high": 0.2441
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 2,
+            "mean": 0.8334,
+            "std": 0.2357,
+            "min": 0.6667,
+            "max": 1.0,
+            "ci95_low": 0.5067,
+            "ci95_high": 1.16
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 369.5667,
+            "std": 17.2321,
+            "min": 344.0,
+            "max": 427.0,
+            "ci95_low": 363.4003,
+            "ci95_high": 375.7331
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 135.2,
+            "std": 30.1941,
+            "min": 108.0,
+            "max": 247.0,
+            "ci95_low": 124.3952,
+            "ci95_high": 146.0048
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.462,
+            "std": 0.0102,
+            "min": 0.4397,
+            "max": 0.4812,
+            "ci95_low": 0.4583,
+            "ci95_high": 0.4656
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 1.8333,
+            "std": 0.7915,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 1.5501,
+            "ci95_high": 2.1166
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2068,
+            "std": 0.0149,
+            "min": 0.1775,
+            "max": 0.2218,
+            "ci95_low": 0.2015,
+            "ci95_high": 0.2121
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9035,
+            "std": 0.039,
+            "min": 0.814,
+            "max": 0.9298,
+            "ci95_low": 0.8896,
+            "ci95_high": 0.9174
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 1.7,
+            "std": 1.7646,
+            "min": 0.0,
+            "max": 6.0,
+            "ci95_low": 1.0685,
+            "ci95_high": 2.3315
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 1.2,
+            "std": 1.1567,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 0.7861,
+            "ci95_high": 1.6139
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 19,
+            "mean": 0.772,
+            "std": 0.1592,
+            "min": 0.6667,
+            "max": 1.0,
+            "ci95_low": 0.7004,
+            "ci95_high": 0.8435
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 402.4667,
+            "std": 31.6846,
+            "min": 345.0,
+            "max": 460.0,
+            "ci95_low": 391.1285,
+            "ci95_high": 413.8048
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 218.0667,
+            "std": 72.2739,
+            "min": 116.0,
+            "max": 326.0,
+            "ci95_low": 192.2038,
+            "ci95_high": 243.9295
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4326,
+            "std": 0.0239,
+            "min": 0.3982,
+            "max": 0.4737,
+            "ci95_low": 0.424,
+            "ci95_high": 0.4411
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 1.5667,
+            "std": 0.6789,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": 1.3237,
+            "ci95_high": 1.8096
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1968,
+            "std": 0.0062,
+            "min": 0.1782,
+            "max": 0.2154,
+            "ci95_low": 0.1946,
+            "ci95_high": 0.1991
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.913,
+            "std": 0.0189,
+            "min": 0.8175,
+            "max": 0.9298,
+            "ci95_low": 0.9062,
+            "ci95_high": 0.9198
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.2333,
+            "std": 0.8976,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": -0.0879,
+            "ci95_high": 0.5545
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.1667,
+            "std": 0.6477,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": -0.0651,
+            "ci95_high": 0.3985
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 2,
+            "mean": 0.7084,
+            "std": 0.0589,
+            "min": 0.6667,
+            "max": 0.75,
+            "ci95_low": 0.6267,
+            "ci95_high": 0.79
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 376.2333,
+            "std": 15.083,
+            "min": 356.0,
+            "max": 429.0,
+            "ci95_low": 370.836,
+            "ci95_high": 381.6307
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 143.2333,
+            "std": 31.7834,
+            "min": 124.0,
+            "max": 268.0,
+            "ci95_low": 131.8598,
+            "ci95_high": 154.6069
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4473,
+            "std": 0.0078,
+            "min": 0.4272,
+            "max": 0.4598,
+            "ci95_low": 0.4445,
+            "ci95_high": 0.4501
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 1.7333,
+            "std": 0.7397,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": 1.4686,
+            "ci95_high": 1.998
+          },
+          "reacquisition_delay_mean": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "runs_with_detection": 30
+        }
+      },
+      "hard": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1628,
+            "std": 0.0119,
+            "min": 0.1515,
+            "max": 0.1788,
+            "ci95_low": 0.1586,
+            "ci95_high": 0.1671
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9053,
+            "std": 0.0032,
+            "min": 0.9,
+            "max": 0.9114,
+            "ci95_low": 0.9041,
+            "ci95_high": 0.9064
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 15,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.5,
+            "std": 9.6695,
+            "min": 529.0,
+            "max": 569.0,
+            "ci95_low": 545.0398,
+            "ci95_high": 551.9602
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 160.8333,
+            "std": 42.8623,
+            "min": 103.0,
+            "max": 229.0,
+            "ci95_low": 145.4953,
+            "ci95_high": 176.1714
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2955,
+            "std": 0.0335,
+            "min": 0.2498,
+            "max": 0.3385,
+            "ci95_low": 0.2835,
+            "ci95_high": 0.3075
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3667,
+            "std": 0.7184,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.1096,
+            "ci95_high": 3.6237
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1791,
+            "std": 0.0007,
+            "min": 0.1773,
+            "max": 0.1803,
+            "ci95_low": 0.1788,
+            "ci95_high": 0.1793
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9116,
+            "std": 0.0034,
+            "min": 0.9045,
+            "max": 0.9159,
+            "ci95_low": 0.9104,
+            "ci95_high": 0.9128
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 564.6,
+            "std": 5.2562,
+            "min": 554.0,
+            "max": 572.0,
+            "ci95_low": 562.7191,
+            "ci95_high": 566.4809
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 220.2,
+            "std": 8.4216,
+            "min": 204.0,
+            "max": 243.0,
+            "ci95_low": 217.1864,
+            "ci95_high": 223.2136
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2669,
+            "std": 0.0051,
+            "min": 0.2577,
+            "max": 0.278,
+            "ci95_low": 0.2651,
+            "ci95_high": 0.2688
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.3667,
+            "std": 0.6687,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.1274,
+            "ci95_high": 2.6059
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1777,
+            "std": 0.0047,
+            "min": 0.153,
+            "max": 0.1799,
+            "ci95_low": 0.1761,
+            "ci95_high": 0.1794
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9104,
+            "std": 0.0029,
+            "min": 0.9023,
+            "max": 0.9159,
+            "ci95_low": 0.9093,
+            "ci95_high": 0.9114
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 29,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 561.9,
+            "std": 4.8661,
+            "min": 551.0,
+            "max": 571.0,
+            "ci95_low": 560.1587,
+            "ci95_high": 563.6413
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 215.4,
+            "std": 13.3897,
+            "min": 167.0,
+            "max": 242.0,
+            "ci95_low": 210.6086,
+            "ci95_high": 220.1914
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2619,
+            "std": 0.0131,
+            "min": 0.2502,
+            "max": 0.3208,
+            "ci95_low": 0.2572,
+            "ci95_high": 0.2666
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.7,
+            "std": 0.7497,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.4317,
+            "ci95_high": 2.9683
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      }
+    },
+    "mild": {
+      "default": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2251,
+            "std": 0.0051,
+            "min": 0.2188,
+            "max": 0.2359,
+            "ci95_low": 0.2233,
+            "ci95_high": 0.2269
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8619,
+            "std": 0.0107,
+            "min": 0.8375,
+            "max": 0.875,
+            "ci95_low": 0.8581,
+            "ci95_high": 0.8657
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.6,
+            "std": 1.1626,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 0.184,
+            "ci95_high": 1.016
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.4333,
+            "std": 0.9353,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 0.0987,
+            "ci95_high": 0.768
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 7,
+            "mean": 0.6905,
+            "std": 0.2242,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.5244,
+            "ci95_high": 0.8566
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 297.5,
+            "std": 5.6675,
+            "min": 285.0,
+            "max": 307.0,
+            "ci95_low": 295.4719,
+            "ci95_high": 299.5281
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 229.0,
+            "std": 31.5398,
+            "min": 181.0,
+            "max": 299.0,
+            "ci95_low": 217.7136,
+            "ci95_high": 240.2864
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4662,
+            "std": 0.0069,
+            "min": 0.4556,
+            "max": 0.4842,
+            "ci95_low": 0.4638,
+            "ci95_high": 0.4687
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.1,
+            "std": 0.9948,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": 2.744,
+            "ci95_high": 3.456
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.226,
+            "std": 0.0029,
+            "min": 0.2203,
+            "max": 0.2328,
+            "ci95_low": 0.225,
+            "ci95_high": 0.2271
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8727,
+            "std": 0.0123,
+            "min": 0.8438,
+            "max": 0.9,
+            "ci95_low": 0.8683,
+            "ci95_high": 0.8771
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.2333,
+            "std": 0.7739,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": -0.0436,
+            "ci95_high": 0.5103
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.1667,
+            "std": 0.4611,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": 0.0017,
+            "ci95_high": 0.3317
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 4,
+            "mean": 0.875,
+            "std": 0.25,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.63,
+            "ci95_high": 1.12
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 302.7,
+            "std": 4.8434,
+            "min": 289.0,
+            "max": 310.0,
+            "ci95_low": 300.9668,
+            "ci95_high": 304.4332
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 240.7,
+            "std": 26.3951,
+            "min": 198.0,
+            "max": 313.0,
+            "ci95_low": 231.2546,
+            "ci95_high": 250.1454
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4624,
+            "std": 0.007,
+            "min": 0.4475,
+            "max": 0.4757,
+            "ci95_low": 0.4599,
+            "ci95_high": 0.4649
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.0333,
+            "std": 1.0334,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": 2.6636,
+            "ci95_high": 3.4031
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2277,
+            "std": 0.0036,
+            "min": 0.2203,
+            "max": 0.2344,
+            "ci95_low": 0.2264,
+            "ci95_high": 0.229
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8752,
+            "std": 0.0109,
+            "min": 0.85,
+            "max": 0.9,
+            "ci95_low": 0.8713,
+            "ci95_high": 0.8791
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 2,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 299.8667,
+            "std": 11.584,
+            "min": 244.0,
+            "max": 314.0,
+            "ci95_low": 295.7214,
+            "ci95_high": 304.0119
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 234.5333,
+            "std": 44.0546,
+            "min": 114.0,
+            "max": 318.0,
+            "ci95_low": 218.7686,
+            "ci95_high": 250.2981
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4616,
+            "std": 0.0084,
+            "min": 0.4453,
+            "max": 0.4769,
+            "ci95_low": 0.4586,
+            "ci95_high": 0.4646
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.1,
+            "std": 1.0619,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": 2.72,
+            "ci95_high": 3.48
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "medium": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1747,
+            "std": 0.0082,
+            "min": 0.1635,
+            "max": 0.1951,
+            "ci95_low": 0.1718,
+            "ci95_high": 0.1777
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8406,
+            "std": 0.0401,
+            "min": 0.8105,
+            "max": 0.9193,
+            "ci95_low": 0.8262,
+            "ci95_high": 0.8549
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.1667,
+            "std": 0.6477,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": -0.0651,
+            "ci95_high": 0.3985
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.1333,
+            "std": 0.5074,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.0482,
+            "ci95_high": 0.3149
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 2,
+            "mean": 0.8334,
+            "std": 0.2357,
+            "min": 0.6667,
+            "max": 1.0,
+            "ci95_low": 0.5067,
+            "ci95_high": 1.16
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 354.2333,
+            "std": 16.3405,
+            "min": 335.0,
+            "max": 421.0,
+            "ci95_low": 348.386,
+            "ci95_high": 360.0807
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 118.6667,
+            "std": 25.2878,
+            "min": 92.0,
+            "max": 237.0,
+            "ci95_low": 109.6176,
+            "ci95_high": 127.7158
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4714,
+            "std": 0.0121,
+            "min": 0.4282,
+            "max": 0.4878,
+            "ci95_low": 0.467,
+            "ci95_high": 0.4757
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.1,
+            "std": 0.9595,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 1.7566,
+            "ci95_high": 2.4434
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1922,
+            "std": 0.0104,
+            "min": 0.1747,
+            "max": 0.2175,
+            "ci95_low": 0.1885,
+            "ci95_high": 0.1959
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8922,
+            "std": 0.0402,
+            "min": 0.807,
+            "max": 0.9263,
+            "ci95_low": 0.8778,
+            "ci95_high": 0.9065
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.6,
+            "std": 1.4044,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": 0.0974,
+            "ci95_high": 1.1026
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.3667,
+            "std": 0.8503,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": 0.0624,
+            "ci95_high": 0.6709
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 6,
+            "mean": 0.6445,
+            "std": 0.1858,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.4958,
+            "ci95_high": 0.7931
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 372.3667,
+            "std": 21.0,
+            "min": 344.0,
+            "max": 419.0,
+            "ci95_low": 364.8519,
+            "ci95_high": 379.8814
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 141.5667,
+            "std": 47.574,
+            "min": 107.0,
+            "max": 274.0,
+            "ci95_low": 124.5425,
+            "ci95_high": 158.5908
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4452,
+            "std": 0.0185,
+            "min": 0.3888,
+            "max": 0.4672,
+            "ci95_low": 0.4386,
+            "ci95_high": 0.4519
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 1.7333,
+            "std": 0.8683,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 1.4226,
+            "ci95_high": 2.0441
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1913,
+            "std": 0.0082,
+            "min": 0.1726,
+            "max": 0.2028,
+            "ci95_low": 0.1883,
+            "ci95_high": 0.1942
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8991,
+            "std": 0.0381,
+            "min": 0.8105,
+            "max": 0.9263,
+            "ci95_low": 0.8854,
+            "ci95_high": 0.9127
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.2333,
+            "std": 0.8172,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": -0.0591,
+            "ci95_high": 0.5258
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.1667,
+            "std": 0.5921,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": -0.0452,
+            "ci95_high": 0.3785
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 3,
+            "mean": 0.75,
+            "std": 0.25,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.4671,
+            "ci95_high": 1.0329
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 369.2333,
+            "std": 15.5911,
+            "min": 343.0,
+            "max": 409.0,
+            "ci95_low": 363.6541,
+            "ci95_high": 374.8125
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 138.4333,
+            "std": 33.018,
+            "min": 103.0,
+            "max": 243.0,
+            "ci95_low": 126.618,
+            "ci95_high": 150.2487
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4496,
+            "std": 0.009,
+            "min": 0.4339,
+            "max": 0.4721,
+            "ci95_low": 0.4464,
+            "ci95_high": 0.4529
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.0,
+            "std": 0.7428,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": 1.7342,
+            "ci95_high": 2.2658
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "hard": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1646,
+            "std": 0.0118,
+            "min": 0.1481,
+            "max": 0.1765,
+            "ci95_low": 0.1604,
+            "ci95_high": 0.1688
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9009,
+            "std": 0.0033,
+            "min": 0.8955,
+            "max": 0.9068,
+            "ci95_low": 0.8997,
+            "ci95_high": 0.9021
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 28.6333,
+            "std": 23.6008,
+            "min": 0.0,
+            "max": 55.0,
+            "ci95_low": 20.1879,
+            "ci95_high": 37.0788
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 28.6333,
+            "std": 23.6008,
+            "min": 0.0,
+            "max": 55.0,
+            "ci95_low": 20.1879,
+            "ci95_high": 37.0788
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 20,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.7,
+            "std": 8.9217,
+            "min": 530.0,
+            "max": 566.0,
+            "ci95_low": 545.5074,
+            "ci95_high": 551.8926
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 173.9667,
+            "std": 42.9261,
+            "min": 109.0,
+            "max": 231.0,
+            "ci95_low": 158.6057,
+            "ci95_high": 189.3276
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2838,
+            "std": 0.0336,
+            "min": 0.2429,
+            "max": 0.3354,
+            "ci95_low": 0.2717,
+            "ci95_high": 0.2958
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.3667,
+            "std": 0.4901,
+            "min": 4.0,
+            "max": 5.0,
+            "ci95_low": 4.1913,
+            "ci95_high": 4.5421
+          },
+          "reacquisition_delay_mean": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1758,
+            "std": 0.0009,
+            "min": 0.1742,
+            "max": 0.1777,
+            "ci95_low": 0.1755,
+            "ci95_high": 0.1762
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9059,
+            "std": 0.0037,
+            "min": 0.8977,
+            "max": 0.9114,
+            "ci95_low": 0.9046,
+            "ci95_high": 0.9072
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 53.1667,
+            "std": 3.7608,
+            "min": 46.0,
+            "max": 60.0,
+            "ci95_low": 51.8209,
+            "ci95_high": 54.5125
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 53.1667,
+            "std": 3.7608,
+            "min": 46.0,
+            "max": 60.0,
+            "ci95_low": 51.8209,
+            "ci95_high": 54.5125
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 554.0,
+            "std": 4.3707,
+            "min": 545.0,
+            "max": 562.0,
+            "ci95_low": 552.4359,
+            "ci95_high": 555.5641
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 209.1667,
+            "std": 12.4515,
+            "min": 194.0,
+            "max": 242.0,
+            "ci95_low": 204.7109,
+            "ci95_high": 213.6224
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2649,
+            "std": 0.0051,
+            "min": 0.2564,
+            "max": 0.2759,
+            "ci95_low": 0.2631,
+            "ci95_high": 0.2667
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.1333,
+            "std": 0.6288,
+            "min": 3.0,
+            "max": 5.0,
+            "ci95_low": 3.9083,
+            "ci95_high": 4.3584
+          },
+          "reacquisition_delay_mean": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1737,
+            "std": 0.0066,
+            "min": 0.1492,
+            "max": 0.178,
+            "ci95_low": 0.1713,
+            "ci95_high": 0.1761
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9036,
+            "std": 0.003,
+            "min": 0.8977,
+            "max": 0.9091,
+            "ci95_low": 0.9026,
+            "ci95_high": 0.9047
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 48.7667,
+            "std": 13.7181,
+            "min": 0.0,
+            "max": 60.0,
+            "ci95_low": 43.8577,
+            "ci95_high": 53.6756
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 48.7667,
+            "std": 13.7181,
+            "min": 0.0,
+            "max": 60.0,
+            "ci95_low": 43.8577,
+            "ci95_high": 53.6756
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 28,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 554.0667,
+            "std": 4.008,
+            "min": 544.0,
+            "max": 563.0,
+            "ci95_low": 552.6324,
+            "ci95_high": 555.5009
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 203.5667,
+            "std": 16.546,
+            "min": 151.0,
+            "max": 227.0,
+            "ci95_low": 197.6457,
+            "ci95_high": 209.4876
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2644,
+            "std": 0.0217,
+            "min": 0.2469,
+            "max": 0.3372,
+            "ci95_low": 0.2567,
+            "ci95_high": 0.2722
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.3333,
+            "std": 0.6065,
+            "min": 3.0,
+            "max": 6.0,
+            "ci95_low": 4.1163,
+            "ci95_high": 4.5504
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      }
+    },
+    "moderate": {
+      "default": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2196,
+            "std": 0.0193,
+            "min": 0.1203,
+            "max": 0.2328,
+            "ci95_low": 0.2127,
+            "ci95_high": 0.2265
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8463,
+            "std": 0.0744,
+            "min": 0.4562,
+            "max": 0.875,
+            "ci95_low": 0.8196,
+            "ci95_high": 0.8729
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 0.9833,
+            "std": 0.0913,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.9507,
+            "ci95_high": 1.016
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.5333,
+            "std": 1.1366,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 0.1266,
+            "ci95_high": 0.9401
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.4333,
+            "std": 0.9714,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 0.0857,
+            "ci95_high": 0.781
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 6,
+            "mean": 0.8056,
+            "std": 0.2215,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.6283,
+            "ci95_high": 0.9828
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 294.0333,
+            "std": 10.6009,
+            "min": 246.0,
+            "max": 305.0,
+            "ci95_low": 290.2399,
+            "ci95_high": 297.8268
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 222.5667,
+            "std": 32.9133,
+            "min": 174.0,
+            "max": 282.0,
+            "ci95_low": 210.7888,
+            "ci95_high": 234.3446
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4681,
+            "std": 0.0127,
+            "min": 0.4556,
+            "max": 0.5262,
+            "ci95_low": 0.4636,
+            "ci95_high": 0.4727
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.4667,
+            "std": 1.1958,
+            "min": 0.0,
+            "max": 6.0,
+            "ci95_low": 3.0388,
+            "ci95_high": 3.8946
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2251,
+            "std": 0.0026,
+            "min": 0.2203,
+            "max": 0.2313,
+            "ci95_low": 0.2242,
+            "ci95_high": 0.2261
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8692,
+            "std": 0.0118,
+            "min": 0.8375,
+            "max": 0.8875,
+            "ci95_low": 0.8649,
+            "ci95_high": 0.8734
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.3333,
+            "std": 1.0613,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": -0.0465,
+            "ci95_high": 0.7131
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.2667,
+            "std": 0.8277,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": -0.0295,
+            "ci95_high": 0.5628
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 4,
+            "mean": 0.8667,
+            "std": 0.1633,
+            "min": 0.6667,
+            "max": 1.0,
+            "ci95_low": 0.7067,
+            "ci95_high": 1.0267
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 298.1667,
+            "std": 19.0301,
+            "min": 226.0,
+            "max": 307.0,
+            "ci95_low": 291.3568,
+            "ci95_high": 304.9765
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 235.1667,
+            "std": 33.7486,
+            "min": 168.0,
+            "max": 311.0,
+            "ci95_low": 223.0899,
+            "ci95_high": 247.2435
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4545,
+            "std": 0.0074,
+            "min": 0.4353,
+            "max": 0.4652,
+            "ci95_low": 0.4518,
+            "ci95_high": 0.4571
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3,
+            "std": 0.9879,
+            "min": 2.0,
+            "max": 6.0,
+            "ci95_low": 2.9465,
+            "ci95_high": 3.6535
+          },
+          "reacquisition_delay_mean": {
+            "count": 2,
+            "mean": 1.5,
+            "std": 0.7071,
+            "min": 1.0,
+            "max": 2.0,
+            "ci95_low": 0.52,
+            "ci95_high": 2.48
+          },
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2226,
+            "std": 0.0197,
+            "min": 0.1203,
+            "max": 0.2328,
+            "ci95_low": 0.2155,
+            "ci95_high": 0.2296
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8552,
+            "std": 0.0759,
+            "min": 0.4625,
+            "max": 0.9,
+            "ci95_low": 0.828,
+            "ci95_high": 0.8824
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 0.9833,
+            "std": 0.0913,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.9507,
+            "ci95_high": 1.016
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.9,
+            "std": 1.2134,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 0.4658,
+            "ci95_high": 1.3342
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.5667,
+            "std": 0.8172,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": 0.2742,
+            "ci95_high": 0.8591
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 12,
+            "mean": 0.632,
+            "std": 0.1929,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.5228,
+            "ci95_high": 0.7411
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 283.6,
+            "std": 28.3301,
+            "min": 197.0,
+            "max": 304.0,
+            "ci95_low": 273.4622,
+            "ci95_high": 293.7378
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 213.6667,
+            "std": 49.2435,
+            "min": 126.0,
+            "max": 313.0,
+            "ci95_low": 196.0451,
+            "ci95_high": 231.2882
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4631,
+            "std": 0.014,
+            "min": 0.4416,
+            "max": 0.5232,
+            "ci95_low": 0.4581,
+            "ci95_high": 0.4681
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3667,
+            "std": 1.0981,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": 2.9737,
+            "ci95_high": 3.7596
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "medium": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1751,
+            "std": 0.0081,
+            "min": 0.1642,
+            "max": 0.1895,
+            "ci95_low": 0.1722,
+            "ci95_high": 0.178
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8499,
+            "std": 0.0442,
+            "min": 0.8105,
+            "max": 0.9193,
+            "ci95_low": 0.8341,
+            "ci95_high": 0.8657
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.3651,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.064,
+            "ci95_high": 0.1973
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.3651,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.064,
+            "ci95_high": 0.1973
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 352.5333,
+            "std": 10.2947,
+            "min": 331.0,
+            "max": 368.0,
+            "ci95_low": 348.8494,
+            "ci95_high": 356.2173
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 111.2,
+            "std": 11.5143,
+            "min": 88.0,
+            "max": 142.0,
+            "ci95_low": 107.0797,
+            "ci95_high": 115.3203
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4655,
+            "std": 0.0087,
+            "min": 0.4491,
+            "max": 0.4849,
+            "ci95_low": 0.4624,
+            "ci95_high": 0.4686
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.4333,
+            "std": 0.9714,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 2.0857,
+            "ci95_high": 2.781
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1869,
+            "std": 0.0087,
+            "min": 0.1621,
+            "max": 0.1958,
+            "ci95_low": 0.1838,
+            "ci95_high": 0.19
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8827,
+            "std": 0.0431,
+            "min": 0.793,
+            "max": 0.9193,
+            "ci95_low": 0.8673,
+            "ci95_high": 0.8981
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.3651,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.064,
+            "ci95_high": 0.1973
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.3651,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.064,
+            "ci95_high": 0.1973
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 359.8667,
+            "std": 13.987,
+            "min": 331.0,
+            "max": 384.0,
+            "ci95_low": 354.8615,
+            "ci95_high": 364.8719
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 123.6333,
+            "std": 11.1494,
+            "min": 99.0,
+            "max": 146.0,
+            "ci95_low": 119.6436,
+            "ci95_high": 127.6231
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4743,
+            "std": 0.0142,
+            "min": 0.4334,
+            "max": 0.4952,
+            "ci95_low": 0.4693,
+            "ci95_high": 0.4794
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 1.9333,
+            "std": 0.9803,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 1.5825,
+            "ci95_high": 2.2841
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1886,
+            "std": 0.0083,
+            "min": 0.1691,
+            "max": 0.1979,
+            "ci95_low": 0.1856,
+            "ci95_high": 0.1915
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8943,
+            "std": 0.0396,
+            "min": 0.8105,
+            "max": 0.9263,
+            "ci95_low": 0.8801,
+            "ci95_high": 0.9085
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.1667,
+            "std": 0.5307,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.0232,
+            "ci95_high": 0.3566
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.1333,
+            "std": 0.4342,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.022,
+            "ci95_high": 0.2887
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 3,
+            "mean": 0.8333,
+            "std": 0.2887,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.5067,
+            "ci95_high": 1.16
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 365.1,
+            "std": 14.6343,
+            "min": 341.0,
+            "max": 420.0,
+            "ci95_low": 359.8632,
+            "ci95_high": 370.3368
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 128.9667,
+            "std": 21.1782,
+            "min": 108.0,
+            "max": 222.0,
+            "ci95_low": 121.3881,
+            "ci95_high": 136.5452
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4486,
+            "std": 0.0114,
+            "min": 0.4341,
+            "max": 0.4767,
+            "ci95_low": 0.4445,
+            "ci95_high": 0.4527
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.1,
+            "std": 0.6618,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": 1.8632,
+            "ci95_high": 2.3368
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "hard": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1644,
+            "std": 0.0118,
+            "min": 0.1477,
+            "max": 0.1758,
+            "ci95_low": 0.1602,
+            "ci95_high": 0.1686
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8996,
+            "std": 0.0027,
+            "min": 0.8932,
+            "max": 0.9045,
+            "ci95_low": 0.8986,
+            "ci95_high": 0.9006
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 28.3,
+            "std": 21.4157,
+            "min": 0.0,
+            "max": 51.0,
+            "ci95_low": 20.6365,
+            "ci95_high": 35.9635
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 28.3,
+            "std": 21.4157,
+            "min": 0.0,
+            "max": 51.0,
+            "ci95_low": 20.6365,
+            "ci95_high": 35.9635
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 21,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 546.5,
+            "std": 8.4639,
+            "min": 527.0,
+            "max": 563.0,
+            "ci95_low": 543.4712,
+            "ci95_high": 549.5288
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 174.7,
+            "std": 41.1793,
+            "min": 116.0,
+            "max": 217.0,
+            "ci95_low": 159.9642,
+            "ci95_high": 189.4358
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2771,
+            "std": 0.0328,
+            "min": 0.2453,
+            "max": 0.3355,
+            "ci95_low": 0.2654,
+            "ci95_high": 0.2888
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.6333,
+            "std": 0.7184,
+            "min": 4.0,
+            "max": 6.0,
+            "ci95_low": 4.3763,
+            "ci95_high": 4.8904
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1741,
+            "std": 0.0029,
+            "min": 0.1595,
+            "max": 0.1773,
+            "ci95_low": 0.1731,
+            "ci95_high": 0.1752
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9008,
+            "std": 0.0178,
+            "min": 0.8091,
+            "max": 0.9091,
+            "ci95_low": 0.8944,
+            "ci95_high": 0.9071
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 49.8667,
+            "std": 4.2486,
+            "min": 40.0,
+            "max": 57.0,
+            "ci95_low": 48.3463,
+            "ci95_high": 51.387
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 49.8667,
+            "std": 4.2486,
+            "min": 40.0,
+            "max": 57.0,
+            "ci95_low": 48.3463,
+            "ci95_high": 51.387
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 552.3,
+            "std": 5.7963,
+            "min": 538.0,
+            "max": 565.0,
+            "ci95_low": 550.2258,
+            "ci95_high": 554.3742
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 206.1,
+            "std": 13.6694,
+            "min": 187.0,
+            "max": 242.0,
+            "ci95_low": 201.2085,
+            "ci95_high": 210.9915
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2693,
+            "std": 0.007,
+            "min": 0.2574,
+            "max": 0.295,
+            "ci95_low": 0.2668,
+            "ci95_high": 0.2718
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.4,
+            "std": 0.7701,
+            "min": 3.0,
+            "max": 7.0,
+            "ci95_low": 4.1244,
+            "ci95_high": 4.6756
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1718,
+            "std": 0.0076,
+            "min": 0.1492,
+            "max": 0.1765,
+            "ci95_low": 0.1691,
+            "ci95_high": 0.1745
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8983,
+            "std": 0.0277,
+            "min": 0.7523,
+            "max": 0.9091,
+            "ci95_low": 0.8884,
+            "ci95_high": 0.9082
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 45.6667,
+            "std": 13.142,
+            "min": 0.0,
+            "max": 59.0,
+            "ci95_low": 40.9639,
+            "ci95_high": 50.3695
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 45.6667,
+            "std": 13.142,
+            "min": 0.0,
+            "max": 59.0,
+            "ci95_low": 40.9639,
+            "ci95_high": 50.3695
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 28,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 550.8333,
+            "std": 6.9831,
+            "min": 519.0,
+            "max": 560.0,
+            "ci95_low": 548.3344,
+            "ci95_high": 553.3322
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 200.2667,
+            "std": 18.424,
+            "min": 137.0,
+            "max": 236.0,
+            "ci95_low": 193.6737,
+            "ci95_high": 206.8596
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2737,
+            "std": 0.0224,
+            "min": 0.2522,
+            "max": 0.3506,
+            "ci95_low": 0.2657,
+            "ci95_high": 0.2818
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.7,
+            "std": 0.7022,
+            "min": 3.0,
+            "max": 6.0,
+            "ci95_low": 4.4487,
+            "ci95_high": 4.9513
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      }
+    },
+    "severe": {
+      "default": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2017,
+            "std": 0.0351,
+            "min": 0.1203,
+            "max": 0.2266,
+            "ci95_low": 0.1892,
+            "ci95_high": 0.2143
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.7792,
+            "std": 0.1469,
+            "min": 0.45,
+            "max": 0.8688,
+            "ci95_low": 0.7266,
+            "ci95_high": 0.8317
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 0.9333,
+            "std": 0.1729,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.8715,
+            "ci95_high": 0.9952
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 2.0342,
+            "min": 0.0,
+            "max": 8.0,
+            "ci95_low": 0.2721,
+            "ci95_high": 1.7279
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.5667,
+            "std": 1.1943,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": 0.1393,
+            "ci95_high": 0.9941
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 9,
+            "mean": 0.5774,
+            "std": 0.1646,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.4698,
+            "ci95_high": 0.6849
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 281.8333,
+            "std": 37.6134,
+            "min": 151.0,
+            "max": 303.0,
+            "ci95_low": 268.3736,
+            "ci95_high": 295.2931
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 214.2,
+            "std": 47.914,
+            "min": 87.0,
+            "max": 287.0,
+            "ci95_low": 197.0542,
+            "ci95_high": 231.3458
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4766,
+            "std": 0.0208,
+            "min": 0.4567,
+            "max": 0.5254,
+            "ci95_low": 0.4691,
+            "ci95_high": 0.484
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.6333,
+            "std": 1.129,
+            "min": 3.0,
+            "max": 7.0,
+            "ci95_low": 4.2293,
+            "ci95_high": 5.0374
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.2169,
+            "std": 0.0186,
+            "min": 0.1203,
+            "max": 0.2281,
+            "ci95_low": 0.2102,
+            "ci95_high": 0.2235
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8404,
+            "std": 0.0749,
+            "min": 0.4562,
+            "max": 0.8812,
+            "ci95_low": 0.8136,
+            "ci95_high": 0.8672
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 0.9833,
+            "std": 0.0913,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.9507,
+            "ci95_high": 1.016
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.8333,
+            "std": 1.5332,
+            "min": 0.0,
+            "max": 6.0,
+            "ci95_low": 0.2847,
+            "ci95_high": 1.382
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.5333,
+            "std": 0.8996,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": 0.2114,
+            "ci95_high": 0.8552
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 10,
+            "mean": 0.7267,
+            "std": 0.2413,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.5771,
+            "ci95_high": 0.8762
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 269.9333,
+            "std": 36.8398,
+            "min": 182.0,
+            "max": 305.0,
+            "ci95_low": 256.7504,
+            "ci95_high": 283.1163
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 205.4333,
+            "std": 49.4701,
+            "min": 100.0,
+            "max": 293.0,
+            "ci95_low": 187.7307,
+            "ci95_high": 223.136
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.455,
+            "std": 0.0125,
+            "min": 0.4352,
+            "max": 0.5085,
+            "ci95_low": 0.4505,
+            "ci95_high": 0.4594
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.1667,
+            "std": 1.1472,
+            "min": 2.0,
+            "max": 7.0,
+            "ci95_low": 3.7561,
+            "ci95_high": 4.5772
+          },
+          "reacquisition_delay_mean": {
+            "count": 2,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1997,
+            "std": 0.04,
+            "min": 0.1156,
+            "max": 0.2266,
+            "ci95_low": 0.1854,
+            "ci95_high": 0.214
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.7723,
+            "std": 0.1579,
+            "min": 0.45,
+            "max": 0.875,
+            "ci95_low": 0.7158,
+            "ci95_high": 0.8288
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 0.9167,
+            "std": 0.1895,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.8488,
+            "ci95_high": 0.9845
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 1.6,
+            "std": 2.3723,
+            "min": 0.0,
+            "max": 9.0,
+            "ci95_low": 0.7511,
+            "ci95_high": 2.4489
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.8667,
+            "std": 1.306,
+            "min": 0.0,
+            "max": 5.0,
+            "ci95_low": 0.3993,
+            "ci95_high": 1.334
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 13,
+            "mean": 0.5482,
+            "std": 0.1537,
+            "min": 0.3333,
+            "max": 1.0,
+            "ci95_low": 0.4647,
+            "ci95_high": 0.6318
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 285.0,
+            "std": 26.0662,
+            "min": 182.0,
+            "max": 306.0,
+            "ci95_low": 275.6723,
+            "ci95_high": 294.3277
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 222.6333,
+            "std": 49.8726,
+            "min": 73.0,
+            "max": 315.0,
+            "ci95_low": 204.7867,
+            "ci95_high": 240.48
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4665,
+            "std": 0.0251,
+            "min": 0.4404,
+            "max": 0.5199,
+            "ci95_low": 0.4575,
+            "ci95_high": 0.4755
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.3,
+            "std": 1.2905,
+            "min": 2.0,
+            "max": 8.0,
+            "ci95_low": 3.8382,
+            "ci95_high": 4.7618
+          },
+          "reacquisition_delay_mean": {
+            "count": 1,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "runs_with_detection": 30
+        }
+      },
+      "medium": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1751,
+            "std": 0.0096,
+            "min": 0.1607,
+            "max": 0.1874,
+            "ci95_low": 0.1717,
+            "ci95_high": 0.1786
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8557,
+            "std": 0.046,
+            "min": 0.8035,
+            "max": 0.9123,
+            "ci95_low": 0.8392,
+            "ci95_high": 0.8721
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.3333,
+            "std": 0.9223,
+            "min": 0.0,
+            "max": 4.0,
+            "ci95_low": 0.0033,
+            "ci95_high": 0.6634
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.2,
+            "std": 0.5509,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": 0.0029,
+            "ci95_high": 0.3971
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 4,
+            "mean": 0.625,
+            "std": 0.25,
+            "min": 0.5,
+            "max": 1.0,
+            "ci95_low": 0.38,
+            "ci95_high": 0.87
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 351.8,
+            "std": 10.7588,
+            "min": 333.0,
+            "max": 371.0,
+            "ci95_low": 347.95,
+            "ci95_high": 355.65
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 116.8,
+            "std": 11.845,
+            "min": 97.0,
+            "max": 143.0,
+            "ci95_low": 112.5613,
+            "ci95_high": 121.0387
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4642,
+            "std": 0.0158,
+            "min": 0.4397,
+            "max": 0.4886,
+            "ci95_low": 0.4585,
+            "ci95_high": 0.4698
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.0333,
+            "std": 0.7649,
+            "min": 2.0,
+            "max": 4.0,
+            "ci95_low": 2.7596,
+            "ci95_high": 3.307
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1793,
+            "std": 0.0085,
+            "min": 0.1677,
+            "max": 0.1923,
+            "ci95_low": 0.1762,
+            "ci95_high": 0.1823
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8634,
+            "std": 0.0456,
+            "min": 0.8035,
+            "max": 0.9123,
+            "ci95_low": 0.8471,
+            "ci95_high": 0.8797
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.1333,
+            "std": 0.5074,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.0482,
+            "ci95_high": 0.3149
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 2,
+            "mean": 0.5,
+            "std": 0.0,
+            "min": 0.5,
+            "max": 0.5,
+            "ci95_low": 0.5,
+            "ci95_high": 0.5
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 350.4667,
+            "std": 13.8234,
+            "min": 329.0,
+            "max": 380.0,
+            "ci95_low": 345.52,
+            "ci95_high": 355.4133
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 113.7333,
+            "std": 8.7806,
+            "min": 99.0,
+            "max": 135.0,
+            "ci95_low": 110.5912,
+            "ci95_high": 116.8754
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.4495,
+            "std": 0.0128,
+            "min": 0.4291,
+            "max": 0.4751,
+            "ci95_low": 0.4449,
+            "ci95_high": 0.4541
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.8667,
+            "std": 0.9371,
+            "min": 1.0,
+            "max": 5.0,
+            "ci95_low": 2.5313,
+            "ci95_high": 3.202
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1836,
+            "std": 0.0085,
+            "min": 0.167,
+            "max": 0.1937,
+            "ci95_low": 0.1805,
+            "ci95_high": 0.1866
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8842,
+            "std": 0.0402,
+            "min": 0.807,
+            "max": 0.9193,
+            "ci95_low": 0.8698,
+            "ci95_high": 0.8986
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 0.2,
+            "std": 0.6103,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": -0.0184,
+            "ci95_high": 0.4184
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 0.1,
+            "std": 0.3051,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0092,
+            "ci95_high": 0.2092
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 3,
+            "mean": 0.5,
+            "std": 0.0,
+            "min": 0.5,
+            "max": 0.5,
+            "ci95_low": 0.5,
+            "ci95_high": 0.5
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 361.4,
+            "std": 11.4579,
+            "min": 332.0,
+            "max": 378.0,
+            "ci95_low": 357.2999,
+            "ci95_high": 365.5001
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 130.1,
+            "std": 11.1891,
+            "min": 106.0,
+            "max": 150.0,
+            "ci95_low": 126.096,
+            "ci95_high": 134.104
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.454,
+            "std": 0.0186,
+            "min": 0.4259,
+            "max": 0.4883,
+            "ci95_low": 0.4473,
+            "ci95_high": 0.4606
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.5333,
+            "std": 0.7761,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.2556,
+            "ci95_high": 2.811
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "hard": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1657,
+            "std": 0.0099,
+            "min": 0.1447,
+            "max": 0.1742,
+            "ci95_low": 0.1622,
+            "ci95_high": 0.1693
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.895,
+            "std": 0.0075,
+            "min": 0.8614,
+            "max": 0.9023,
+            "ci95_low": 0.8923,
+            "ci95_high": 0.8977
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.1,
+            "std": 0.3051,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0092,
+            "ci95_high": 0.2092
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 30.1333,
+            "std": 16.4437,
+            "min": 0.0,
+            "max": 49.0,
+            "ci95_low": 24.249,
+            "ci95_high": 36.0176
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 30.1333,
+            "std": 16.4437,
+            "min": 0.0,
+            "max": 49.0,
+            "ci95_low": 24.249,
+            "ci95_high": 36.0176
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 25,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 546.6,
+            "std": 5.9919,
+            "min": 533.0,
+            "max": 559.0,
+            "ci95_low": 544.4558,
+            "ci95_high": 548.7442
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 187.5333,
+            "std": 28.6883,
+            "min": 131.0,
+            "max": 214.0,
+            "ci95_low": 177.2674,
+            "ci95_high": 197.7993
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2699,
+            "std": 0.0342,
+            "min": 0.2437,
+            "max": 0.3475,
+            "ci95_low": 0.2577,
+            "ci95_high": 0.2821
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 5.5667,
+            "std": 0.8172,
+            "min": 4.0,
+            "max": 8.0,
+            "ci95_low": 5.2742,
+            "ci95_high": 5.8591
+          },
+          "reacquisition_delay_mean": {
+            "count": 2,
+            "mean": 9.5,
+            "std": 7.7782,
+            "min": 4.0,
+            "max": 15.0,
+            "ci95_low": -1.28,
+            "ci95_high": 20.28
+          },
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1686,
+            "std": 0.0068,
+            "min": 0.1458,
+            "max": 0.1731,
+            "ci95_low": 0.1661,
+            "ci95_high": 0.171
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8834,
+            "std": 0.0338,
+            "min": 0.7455,
+            "max": 0.9,
+            "ci95_low": 0.8713,
+            "ci95_high": 0.8955
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.1333,
+            "std": 0.3457,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": 0.0096,
+            "ci95_high": 0.2571
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 36.3333,
+            "std": 8.3639,
+            "min": 0.0,
+            "max": 47.0,
+            "ci95_low": 33.3404,
+            "ci95_high": 39.3263
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 36.3333,
+            "std": 8.3639,
+            "min": 0.0,
+            "max": 47.0,
+            "ci95_low": 33.3404,
+            "ci95_high": 39.3263
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 29,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 534.7667,
+            "std": 6.8112,
+            "min": 516.0,
+            "max": 545.0,
+            "ci95_low": 532.3293,
+            "ci95_high": 537.204
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 191.6667,
+            "std": 31.9799,
+            "min": 114.0,
+            "max": 299.0,
+            "ci95_low": 180.2228,
+            "ci95_high": 203.1105
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2717,
+            "std": 0.0219,
+            "min": 0.2516,
+            "max": 0.3463,
+            "ci95_low": 0.2638,
+            "ci95_high": 0.2795
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 6.9,
+            "std": 0.8449,
+            "min": 6.0,
+            "max": 9.0,
+            "ci95_low": 6.5977,
+            "ci95_high": 7.2023
+          },
+          "reacquisition_delay_mean": {
+            "count": 1,
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci95_low": 4.0,
+            "ci95_high": 4.0
+          },
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1705,
+            "std": 0.0057,
+            "min": 0.1462,
+            "max": 0.1742,
+            "ci95_low": 0.1684,
+            "ci95_high": 0.1725
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8939,
+            "std": 0.0278,
+            "min": 0.7477,
+            "max": 0.9045,
+            "ci95_low": 0.8839,
+            "ci95_high": 0.9038
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 37.1667,
+            "std": 6.5552,
+            "min": 7.0,
+            "max": 43.0,
+            "ci95_low": 34.8209,
+            "ci95_high": 39.5124
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 37.1667,
+            "std": 6.5552,
+            "min": 7.0,
+            "max": 43.0,
+            "ci95_low": 34.8209,
+            "ci95_high": 39.5124
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 545.2667,
+            "std": 7.7989,
+            "min": 511.0,
+            "max": 557.0,
+            "ci95_low": 542.4759,
+            "ci95_high": 548.0575
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 200.0333,
+            "std": 13.9494,
+            "min": 148.0,
+            "max": 232.0,
+            "ci95_low": 195.0416,
+            "ci95_high": 205.0251
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2596,
+            "std": 0.0175,
+            "min": 0.2408,
+            "max": 0.3318,
+            "ci95_low": 0.2534,
+            "ci95_high": 0.2659
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 5.3333,
+            "std": 0.6609,
+            "min": 4.0,
+            "max": 6.0,
+            "ci95_low": 5.0968,
+            "ci95_high": 5.5698
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      }
+    }
+  },
+  "individual_sweeps": {
+    "gps_noise": {
+      "0.0": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1628,
+            "std": 0.0119,
+            "min": 0.1515,
+            "max": 0.1788,
+            "ci95_low": 0.1586,
+            "ci95_high": 0.1671
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9053,
+            "std": 0.0032,
+            "min": 0.9,
+            "max": 0.9114,
+            "ci95_low": 0.9041,
+            "ci95_high": 0.9064
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 15,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.5,
+            "std": 9.6695,
+            "min": 529.0,
+            "max": 569.0,
+            "ci95_low": 545.0398,
+            "ci95_high": 551.9602
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 160.8333,
+            "std": 42.8623,
+            "min": 103.0,
+            "max": 229.0,
+            "ci95_low": 145.4953,
+            "ci95_high": 176.1714
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2955,
+            "std": 0.0335,
+            "min": 0.2498,
+            "max": 0.3385,
+            "ci95_low": 0.2835,
+            "ci95_high": 0.3075
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3667,
+            "std": 0.7184,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.1096,
+            "ci95_high": 3.6237
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1791,
+            "std": 0.0007,
+            "min": 0.1773,
+            "max": 0.1803,
+            "ci95_low": 0.1788,
+            "ci95_high": 0.1793
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9116,
+            "std": 0.0034,
+            "min": 0.9045,
+            "max": 0.9159,
+            "ci95_low": 0.9104,
+            "ci95_high": 0.9128
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 564.6,
+            "std": 5.2562,
+            "min": 554.0,
+            "max": 572.0,
+            "ci95_low": 562.7191,
+            "ci95_high": 566.4809
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 220.2,
+            "std": 8.4216,
+            "min": 204.0,
+            "max": 243.0,
+            "ci95_low": 217.1864,
+            "ci95_high": 223.2136
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2669,
+            "std": 0.0051,
+            "min": 0.2577,
+            "max": 0.278,
+            "ci95_low": 0.2651,
+            "ci95_high": 0.2688
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.3667,
+            "std": 0.6687,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.1274,
+            "ci95_high": 2.6059
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1777,
+            "std": 0.0047,
+            "min": 0.153,
+            "max": 0.1799,
+            "ci95_low": 0.1761,
+            "ci95_high": 0.1794
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9104,
+            "std": 0.0029,
+            "min": 0.9023,
+            "max": 0.9159,
+            "ci95_low": 0.9093,
+            "ci95_high": 0.9114
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 29,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 561.9,
+            "std": 4.8661,
+            "min": 551.0,
+            "max": 571.0,
+            "ci95_low": 560.1587,
+            "ci95_high": 563.6413
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 215.4,
+            "std": 13.3897,
+            "min": 167.0,
+            "max": 242.0,
+            "ci95_low": 210.6086,
+            "ci95_high": 220.1914
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2619,
+            "std": 0.0131,
+            "min": 0.2502,
+            "max": 0.3208,
+            "ci95_low": 0.2572,
+            "ci95_high": 0.2666
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.7,
+            "std": 0.7497,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.4317,
+            "ci95_high": 2.9683
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "2.0": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1628,
+            "std": 0.0119,
+            "min": 0.1515,
+            "max": 0.1788,
+            "ci95_low": 0.1586,
+            "ci95_high": 0.1671
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9053,
+            "std": 0.0032,
+            "min": 0.9,
+            "max": 0.9114,
+            "ci95_low": 0.9041,
+            "ci95_high": 0.9064
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 15,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.5,
+            "std": 9.6695,
+            "min": 529.0,
+            "max": 569.0,
+            "ci95_low": 545.0398,
+            "ci95_high": 551.9602
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 160.8333,
+            "std": 42.8623,
+            "min": 103.0,
+            "max": 229.0,
+            "ci95_low": 145.4953,
+            "ci95_high": 176.1714
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2955,
+            "std": 0.0335,
+            "min": 0.2498,
+            "max": 0.3385,
+            "ci95_low": 0.2835,
+            "ci95_high": 0.3075
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3667,
+            "std": 0.7184,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.1096,
+            "ci95_high": 3.6237
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1791,
+            "std": 0.0006,
+            "min": 0.178,
+            "max": 0.1807,
+            "ci95_low": 0.1789,
+            "ci95_high": 0.1793
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9111,
+            "std": 0.0031,
+            "min": 0.9045,
+            "max": 0.9159,
+            "ci95_low": 0.91,
+            "ci95_high": 0.9122
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 55.8,
+            "std": 3.6803,
+            "min": 49.0,
+            "max": 63.0,
+            "ci95_low": 54.483,
+            "ci95_high": 57.117
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 55.8,
+            "std": 3.6803,
+            "min": 49.0,
+            "max": 63.0,
+            "ci95_low": 54.483,
+            "ci95_high": 57.117
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 564.9,
+            "std": 5.3585,
+            "min": 553.0,
+            "max": 577.0,
+            "ci95_low": 562.9825,
+            "ci95_high": 566.8175
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 220.2333,
+            "std": 8.5407,
+            "min": 206.0,
+            "max": 240.0,
+            "ci95_low": 217.1771,
+            "ci95_high": 223.2896
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2671,
+            "std": 0.0049,
+            "min": 0.2563,
+            "max": 0.2782,
+            "ci95_low": 0.2653,
+            "ci95_high": 0.2688
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.3667,
+            "std": 0.6149,
+            "min": 1.0,
+            "max": 3.0,
+            "ci95_low": 2.1466,
+            "ci95_high": 2.5867
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1786,
+            "std": 0.0006,
+            "min": 0.1777,
+            "max": 0.1795,
+            "ci95_low": 0.1783,
+            "ci95_high": 0.1788
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9099,
+            "std": 0.003,
+            "min": 0.9023,
+            "max": 0.9136,
+            "ci95_low": 0.9088,
+            "ci95_high": 0.911
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 55.6333,
+            "std": 2.8099,
+            "min": 50.0,
+            "max": 62.0,
+            "ci95_low": 54.6278,
+            "ci95_high": 56.6388
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 55.6333,
+            "std": 2.8099,
+            "min": 50.0,
+            "max": 62.0,
+            "ci95_low": 54.6278,
+            "ci95_high": 56.6388
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 562.0,
+            "std": 5.1058,
+            "min": 553.0,
+            "max": 573.0,
+            "ci95_low": 560.1729,
+            "ci95_high": 563.8271
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 216.5333,
+            "std": 10.8715,
+            "min": 195.0,
+            "max": 247.0,
+            "ci95_low": 212.643,
+            "ci95_high": 220.4236
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2587,
+            "std": 0.0069,
+            "min": 0.2455,
+            "max": 0.2758,
+            "ci95_low": 0.2562,
+            "ci95_high": 0.2612
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.9,
+            "std": 0.7589,
+            "min": 2.0,
+            "max": 4.0,
+            "ci95_low": 2.6284,
+            "ci95_high": 3.1716
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "5.0": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1628,
+            "std": 0.0119,
+            "min": 0.1515,
+            "max": 0.1788,
+            "ci95_low": 0.1586,
+            "ci95_high": 0.1671
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9053,
+            "std": 0.0032,
+            "min": 0.9,
+            "max": 0.9114,
+            "ci95_low": 0.9041,
+            "ci95_high": 0.9064
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 15,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.5,
+            "std": 9.6695,
+            "min": 529.0,
+            "max": 569.0,
+            "ci95_low": 545.0398,
+            "ci95_high": 551.9602
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 160.8333,
+            "std": 42.8623,
+            "min": 103.0,
+            "max": 229.0,
+            "ci95_low": 145.4953,
+            "ci95_high": 176.1714
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2955,
+            "std": 0.0335,
+            "min": 0.2498,
+            "max": 0.3385,
+            "ci95_low": 0.2835,
+            "ci95_high": 0.3075
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3667,
+            "std": 0.7184,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.1096,
+            "ci95_high": 3.6237
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.179,
+            "std": 0.0007,
+            "min": 0.1777,
+            "max": 0.1807,
+            "ci95_low": 0.1788,
+            "ci95_high": 0.1793
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9111,
+            "std": 0.0032,
+            "min": 0.9045,
+            "max": 0.9159,
+            "ci95_low": 0.91,
+            "ci95_high": 0.9123
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 56.5333,
+            "std": 3.4415,
+            "min": 49.0,
+            "max": 63.0,
+            "ci95_low": 55.3018,
+            "ci95_high": 57.7648
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 56.5333,
+            "std": 3.4415,
+            "min": 49.0,
+            "max": 63.0,
+            "ci95_low": 55.3018,
+            "ci95_high": 57.7648
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 564.8,
+            "std": 5.1622,
+            "min": 554.0,
+            "max": 577.0,
+            "ci95_low": 562.9527,
+            "ci95_high": 566.6473
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 220.0333,
+            "std": 8.1473,
+            "min": 206.0,
+            "max": 240.0,
+            "ci95_low": 217.1179,
+            "ci95_high": 222.9488
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2672,
+            "std": 0.0048,
+            "min": 0.2563,
+            "max": 0.2786,
+            "ci95_low": 0.2655,
+            "ci95_high": 0.2689
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.3667,
+            "std": 0.6149,
+            "min": 1.0,
+            "max": 3.0,
+            "ci95_low": 2.1466,
+            "ci95_high": 2.5867
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1786,
+            "std": 0.0006,
+            "min": 0.1777,
+            "max": 0.1795,
+            "ci95_low": 0.1783,
+            "ci95_high": 0.1788
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.91,
+            "std": 0.0031,
+            "min": 0.9023,
+            "max": 0.9159,
+            "ci95_low": 0.9089,
+            "ci95_high": 0.9111
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 55.9,
+            "std": 2.6826,
+            "min": 50.0,
+            "max": 62.0,
+            "ci95_low": 54.94,
+            "ci95_high": 56.86
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 55.9,
+            "std": 2.6826,
+            "min": 50.0,
+            "max": 62.0,
+            "ci95_low": 54.94,
+            "ci95_high": 56.86
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 562.0,
+            "std": 5.1058,
+            "min": 553.0,
+            "max": 573.0,
+            "ci95_low": 560.1729,
+            "ci95_high": 563.8271
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 216.5333,
+            "std": 11.5422,
+            "min": 195.0,
+            "max": 251.0,
+            "ci95_low": 212.403,
+            "ci95_high": 220.6637
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2589,
+            "std": 0.0073,
+            "min": 0.2484,
+            "max": 0.2796,
+            "ci95_low": 0.2563,
+            "ci95_high": 0.2615
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.9,
+            "std": 0.7589,
+            "min": 2.0,
+            "max": 4.0,
+            "ci95_low": 2.6284,
+            "ci95_high": 3.1716
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      }
+    },
+    "detection_decay": {
+      "0.0": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1628,
+            "std": 0.0119,
+            "min": 0.1515,
+            "max": 0.1788,
+            "ci95_low": 0.1586,
+            "ci95_high": 0.1671
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9053,
+            "std": 0.0032,
+            "min": 0.9,
+            "max": 0.9114,
+            "ci95_low": 0.9041,
+            "ci95_high": 0.9064
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 15,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.5,
+            "std": 9.6695,
+            "min": 529.0,
+            "max": 569.0,
+            "ci95_low": 545.0398,
+            "ci95_high": 551.9602
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 160.8333,
+            "std": 42.8623,
+            "min": 103.0,
+            "max": 229.0,
+            "ci95_low": 145.4953,
+            "ci95_high": 176.1714
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2955,
+            "std": 0.0335,
+            "min": 0.2498,
+            "max": 0.3385,
+            "ci95_low": 0.2835,
+            "ci95_high": 0.3075
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3667,
+            "std": 0.7184,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.1096,
+            "ci95_high": 3.6237
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1791,
+            "std": 0.0007,
+            "min": 0.1773,
+            "max": 0.1803,
+            "ci95_low": 0.1788,
+            "ci95_high": 0.1793
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9116,
+            "std": 0.0034,
+            "min": 0.9045,
+            "max": 0.9159,
+            "ci95_low": 0.9104,
+            "ci95_high": 0.9128
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 564.6,
+            "std": 5.2562,
+            "min": 554.0,
+            "max": 572.0,
+            "ci95_low": 562.7191,
+            "ci95_high": 566.4809
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 220.2,
+            "std": 8.4216,
+            "min": 204.0,
+            "max": 243.0,
+            "ci95_low": 217.1864,
+            "ci95_high": 223.2136
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2669,
+            "std": 0.0051,
+            "min": 0.2577,
+            "max": 0.278,
+            "ci95_low": 0.2651,
+            "ci95_high": 0.2688
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.3667,
+            "std": 0.6687,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.1274,
+            "ci95_high": 2.6059
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1777,
+            "std": 0.0047,
+            "min": 0.153,
+            "max": 0.1799,
+            "ci95_low": 0.1761,
+            "ci95_high": 0.1794
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9104,
+            "std": 0.0029,
+            "min": 0.9023,
+            "max": 0.9159,
+            "ci95_low": 0.9093,
+            "ci95_high": 0.9114
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 29,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 561.9,
+            "std": 4.8661,
+            "min": 551.0,
+            "max": 571.0,
+            "ci95_low": 560.1587,
+            "ci95_high": 563.6413
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 215.4,
+            "std": 13.3897,
+            "min": 167.0,
+            "max": 242.0,
+            "ci95_low": 210.6086,
+            "ci95_high": 220.1914
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2619,
+            "std": 0.0131,
+            "min": 0.2502,
+            "max": 0.3208,
+            "ci95_low": 0.2572,
+            "ci95_high": 0.2666
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.7,
+            "std": 0.7497,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.4317,
+            "ci95_high": 2.9683
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "0.5": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1615,
+            "std": 0.0113,
+            "min": 0.1477,
+            "max": 0.1758,
+            "ci95_low": 0.1575,
+            "ci95_high": 0.1656
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9042,
+            "std": 0.007,
+            "min": 0.8727,
+            "max": 0.9136,
+            "ci95_low": 0.9017,
+            "ci95_high": 0.9067
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.1,
+            "std": 0.3051,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0092,
+            "ci95_high": 0.2092
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 24.6667,
+            "std": 23.3125,
+            "min": 0.0,
+            "max": 53.0,
+            "ci95_low": 16.3244,
+            "ci95_high": 33.0089
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 24.6667,
+            "std": 23.3125,
+            "min": 0.0,
+            "max": 53.0,
+            "ci95_low": 16.3244,
+            "ci95_high": 33.0089
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 18,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.6333,
+            "std": 8.422,
+            "min": 531.0,
+            "max": 562.0,
+            "ci95_low": 545.6196,
+            "ci95_high": 551.6471
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 165.4667,
+            "std": 40.3995,
+            "min": 104.0,
+            "max": 221.0,
+            "ci95_low": 151.0099,
+            "ci95_high": 179.9234
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2931,
+            "std": 0.0331,
+            "min": 0.2495,
+            "max": 0.338,
+            "ci95_low": 0.2813,
+            "ci95_high": 0.305
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.5667,
+            "std": 0.6789,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.3237,
+            "ci95_high": 3.8096
+          },
+          "reacquisition_delay_mean": {
+            "count": 2,
+            "mean": 7.0,
+            "std": 8.4853,
+            "min": 1.0,
+            "max": 13.0,
+            "ci95_low": -4.76,
+            "ci95_high": 18.76
+          },
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1738,
+            "std": 0.0057,
+            "min": 0.1508,
+            "max": 0.1769,
+            "ci95_low": 0.1717,
+            "ci95_high": 0.1758
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9097,
+            "std": 0.0038,
+            "min": 0.9023,
+            "max": 0.9182,
+            "ci95_low": 0.9083,
+            "ci95_high": 0.9111
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.1667,
+            "std": 0.4611,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": 0.0017,
+            "ci95_high": 0.3317
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 50.7667,
+            "std": 12.6237,
+            "min": 0.0,
+            "max": 61.0,
+            "ci95_low": 46.2493,
+            "ci95_high": 55.284
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 50.7667,
+            "std": 12.6237,
+            "min": 0.0,
+            "max": 61.0,
+            "ci95_low": 46.2493,
+            "ci95_high": 55.284
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 29,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 560.5667,
+            "std": 6.279,
+            "min": 549.0,
+            "max": 572.0,
+            "ci95_low": 558.3197,
+            "ci95_high": 562.8136
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 212.6333,
+            "std": 17.0809,
+            "min": 153.0,
+            "max": 231.0,
+            "ci95_low": 206.521,
+            "ci95_high": 218.7457
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2734,
+            "std": 0.0161,
+            "min": 0.2587,
+            "max": 0.3352,
+            "ci95_low": 0.2677,
+            "ci95_high": 0.2792
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.7,
+            "std": 0.7497,
+            "min": 2.0,
+            "max": 4.0,
+            "ci95_low": 2.4317,
+            "ci95_high": 2.9683
+          },
+          "reacquisition_delay_mean": {
+            "count": 4,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1723,
+            "std": 0.0083,
+            "min": 0.1477,
+            "max": 0.178,
+            "ci95_low": 0.1693,
+            "ci95_high": 0.1753
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9029,
+            "std": 0.0303,
+            "min": 0.75,
+            "max": 0.9159,
+            "ci95_low": 0.892,
+            "ci95_high": 0.9137
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0667,
+            "std": 0.2537,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.0241,
+            "ci95_high": 0.1575
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 48.6,
+            "std": 13.783,
+            "min": 0.0,
+            "max": 60.0,
+            "ci95_low": 43.6678,
+            "ci95_high": 53.5322
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 48.6,
+            "std": 13.783,
+            "min": 0.0,
+            "max": 60.0,
+            "ci95_low": 43.6678,
+            "ci95_high": 53.5322
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 28,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 556.1,
+            "std": 8.907,
+            "min": 532.0,
+            "max": 569.0,
+            "ci95_low": 552.9127,
+            "ci95_high": 559.2873
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 208.7,
+            "std": 21.0912,
+            "min": 142.0,
+            "max": 268.0,
+            "ci95_low": 201.1526,
+            "ci95_high": 216.2474
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2678,
+            "std": 0.0225,
+            "min": 0.2503,
+            "max": 0.3446,
+            "ci95_low": 0.2598,
+            "ci95_high": 0.2759
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.0333,
+            "std": 0.8503,
+            "min": 2.0,
+            "max": 4.0,
+            "ci95_low": 2.7291,
+            "ci95_high": 3.3376
+          },
+          "reacquisition_delay_mean": {
+            "count": 1,
+            "mean": 20.0,
+            "std": 0.0,
+            "min": 20.0,
+            "max": 20.0,
+            "ci95_low": 20.0,
+            "ci95_high": 20.0
+          },
+          "runs_with_detection": 30
+        }
+      },
+      "1.0": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1539,
+            "std": 0.0119,
+            "min": 0.1367,
+            "max": 0.1727,
+            "ci95_low": 0.1496,
+            "ci95_high": 0.1582
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8936,
+            "std": 0.0386,
+            "min": 0.7068,
+            "max": 0.9136,
+            "ci95_low": 0.8798,
+            "ci95_high": 0.9075
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.4,
+            "std": 0.7701,
+            "min": 0.0,
+            "max": 3.0,
+            "ci95_low": 0.1244,
+            "ci95_high": 0.6756
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 17.2,
+            "std": 21.1927,
+            "min": 0.0,
+            "max": 51.0,
+            "ci95_low": 9.6163,
+            "ci95_high": 24.7837
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 17.1667,
+            "std": 21.2198,
+            "min": 0.0,
+            "max": 51.0,
+            "ci95_low": 9.5732,
+            "ci95_high": 24.7601
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0333,
+            "std": 0.1826,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": -0.032,
+            "ci95_high": 0.0987
+          },
+          "handoff_success_rate": {
+            "count": 15,
+            "mean": 0.9333,
+            "std": 0.2582,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": 0.8027,
+            "ci95_high": 1.064
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 541.7667,
+            "std": 12.0278,
+            "min": 508.0,
+            "max": 562.0,
+            "ci95_low": 537.4626,
+            "ci95_high": 546.0708
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 154.7333,
+            "std": 46.5854,
+            "min": 72.0,
+            "max": 291.0,
+            "ci95_low": 138.063,
+            "ci95_high": 171.4037
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.3121,
+            "std": 0.0339,
+            "min": 0.259,
+            "max": 0.3895,
+            "ci95_low": 0.3,
+            "ci95_high": 0.3242
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.7333,
+            "std": 0.5833,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.5246,
+            "ci95_high": 3.9421
+          },
+          "reacquisition_delay_mean": {
+            "count": 6,
+            "mean": 5.5,
+            "std": 7.5299,
+            "min": 1.0,
+            "max": 19.0,
+            "ci95_low": -0.5252,
+            "ci95_high": 11.5252
+          },
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1642,
+            "std": 0.0102,
+            "min": 0.1367,
+            "max": 0.1735,
+            "ci95_low": 0.1605,
+            "ci95_high": 0.1678
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8812,
+            "std": 0.0533,
+            "min": 0.7545,
+            "max": 0.9159,
+            "ci95_low": 0.8621,
+            "ci95_high": 0.9003
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.5,
+            "std": 0.6823,
+            "min": 0.0,
+            "max": 2.0,
+            "ci95_low": 0.2558,
+            "ci95_high": 0.7442
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 46.0333,
+            "std": 16.0613,
+            "min": 3.0,
+            "max": 59.0,
+            "ci95_low": 40.2859,
+            "ci95_high": 51.7808
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 46.0333,
+            "std": 16.0613,
+            "min": 3.0,
+            "max": 59.0,
+            "ci95_low": 40.2859,
+            "ci95_high": 51.7808
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 553.1667,
+            "std": 13.8516,
+            "min": 503.0,
+            "max": 568.0,
+            "ci95_low": 548.2099,
+            "ci95_high": 558.1234
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 218.3667,
+            "std": 37.5109,
+            "min": 143.0,
+            "max": 332.0,
+            "ci95_low": 204.9436,
+            "ci95_high": 231.7898
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2912,
+            "std": 0.0282,
+            "min": 0.2617,
+            "max": 0.3508,
+            "ci95_low": 0.281,
+            "ci95_high": 0.3013
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.8333,
+            "std": 0.8339,
+            "min": 2.0,
+            "max": 4.0,
+            "ci95_low": 2.5349,
+            "ci95_high": 3.1317
+          },
+          "reacquisition_delay_mean": {
+            "count": 6,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.166,
+            "std": 0.0103,
+            "min": 0.1432,
+            "max": 0.1742,
+            "ci95_low": 0.1623,
+            "ci95_high": 0.1697
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8998,
+            "std": 0.0347,
+            "min": 0.7523,
+            "max": 0.9159,
+            "ci95_low": 0.8874,
+            "ci95_high": 0.9122
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.1333,
+            "std": 0.3457,
+            "min": 0.0,
+            "max": 1.0,
+            "ci95_low": 0.0096,
+            "ci95_high": 0.2571
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 41.6333,
+            "std": 16.9878,
+            "min": 0.0,
+            "max": 57.0,
+            "ci95_low": 35.5543,
+            "ci95_high": 47.7123
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 41.6333,
+            "std": 16.9878,
+            "min": 0.0,
+            "max": 57.0,
+            "ci95_low": 35.5543,
+            "ci95_high": 47.7123
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 28,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 552.5667,
+            "std": 9.6085,
+            "min": 529.0,
+            "max": 564.0,
+            "ci95_low": 549.1283,
+            "ci95_high": 556.005
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 203.2,
+            "std": 35.216,
+            "min": 125.0,
+            "max": 306.0,
+            "ci95_low": 190.5981,
+            "ci95_high": 215.8019
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2824,
+            "std": 0.0374,
+            "min": 0.252,
+            "max": 0.3784,
+            "ci95_low": 0.269,
+            "ci95_high": 0.2958
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.4667,
+            "std": 0.9732,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.1184,
+            "ci95_high": 3.8149
+          },
+          "reacquisition_delay_mean": {
+            "count": 2,
+            "mean": 7.5,
+            "std": 9.1924,
+            "min": 1.0,
+            "max": 14.0,
+            "ci95_low": -5.24,
+            "ci95_high": 20.24
+          },
+          "runs_with_detection": 30
+        }
+      }
+    },
+    "actuation_delay": {
+      "0.0": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1628,
+            "std": 0.0119,
+            "min": 0.1515,
+            "max": 0.1788,
+            "ci95_low": 0.1586,
+            "ci95_high": 0.1671
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9053,
+            "std": 0.0032,
+            "min": 0.9,
+            "max": 0.9114,
+            "ci95_low": 0.9041,
+            "ci95_high": 0.9064
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 21.5667,
+            "std": 24.5732,
+            "min": 0.0,
+            "max": 56.0,
+            "ci95_low": 12.7733,
+            "ci95_high": 30.3601
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 15,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 548.5,
+            "std": 9.6695,
+            "min": 529.0,
+            "max": 569.0,
+            "ci95_low": 545.0398,
+            "ci95_high": 551.9602
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 160.8333,
+            "std": 42.8623,
+            "min": 103.0,
+            "max": 229.0,
+            "ci95_low": 145.4953,
+            "ci95_high": 176.1714
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2955,
+            "std": 0.0335,
+            "min": 0.2498,
+            "max": 0.3385,
+            "ci95_low": 0.2835,
+            "ci95_high": 0.3075
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.3667,
+            "std": 0.7184,
+            "min": 2.0,
+            "max": 5.0,
+            "ci95_low": 3.1096,
+            "ci95_high": 3.6237
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1791,
+            "std": 0.0007,
+            "min": 0.1773,
+            "max": 0.1803,
+            "ci95_low": 0.1788,
+            "ci95_high": 0.1793
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9116,
+            "std": 0.0034,
+            "min": 0.9045,
+            "max": 0.9159,
+            "ci95_low": 0.9104,
+            "ci95_high": 0.9128
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 55.9333,
+            "std": 4.193,
+            "min": 47.0,
+            "max": 63.0,
+            "ci95_low": 54.4329,
+            "ci95_high": 57.4338
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 564.6,
+            "std": 5.2562,
+            "min": 554.0,
+            "max": 572.0,
+            "ci95_low": 562.7191,
+            "ci95_high": 566.4809
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 220.2,
+            "std": 8.4216,
+            "min": 204.0,
+            "max": 243.0,
+            "ci95_low": 217.1864,
+            "ci95_high": 223.2136
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2669,
+            "std": 0.0051,
+            "min": 0.2577,
+            "max": 0.278,
+            "ci95_low": 0.2651,
+            "ci95_high": 0.2688
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.3667,
+            "std": 0.6687,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.1274,
+            "ci95_high": 2.6059
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1777,
+            "std": 0.0047,
+            "min": 0.153,
+            "max": 0.1799,
+            "ci95_low": 0.1761,
+            "ci95_high": 0.1794
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9104,
+            "std": 0.0029,
+            "min": 0.9023,
+            "max": 0.9159,
+            "ci95_low": 0.9093,
+            "ci95_high": 0.9114
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 54.8667,
+            "std": 10.8174,
+            "min": 0.0,
+            "max": 64.0,
+            "ci95_low": 50.9957,
+            "ci95_high": 58.7376
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 29,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 561.9,
+            "std": 4.8661,
+            "min": 551.0,
+            "max": 571.0,
+            "ci95_low": 560.1587,
+            "ci95_high": 563.6413
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 215.4,
+            "std": 13.3897,
+            "min": 167.0,
+            "max": 242.0,
+            "ci95_low": 210.6086,
+            "ci95_high": 220.1914
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2619,
+            "std": 0.0131,
+            "min": 0.2502,
+            "max": 0.3208,
+            "ci95_low": 0.2572,
+            "ci95_high": 0.2666
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 2.7,
+            "std": 0.7497,
+            "min": 1.0,
+            "max": 4.0,
+            "ci95_low": 2.4317,
+            "ci95_high": 2.9683
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "0.2": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1659,
+            "std": 0.0122,
+            "min": 0.1508,
+            "max": 0.178,
+            "ci95_low": 0.1615,
+            "ci95_high": 0.1703
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8998,
+            "std": 0.0028,
+            "min": 0.8932,
+            "max": 0.9045,
+            "ci95_low": 0.8988,
+            "ci95_high": 0.9008
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 26.8333,
+            "std": 22.7582,
+            "min": 0.0,
+            "max": 52.0,
+            "ci95_low": 18.6894,
+            "ci95_high": 34.9773
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 26.8333,
+            "std": 22.7582,
+            "min": 0.0,
+            "max": 52.0,
+            "ci95_low": 18.6894,
+            "ci95_high": 34.9773
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 19,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 550.1,
+            "std": 7.783,
+            "min": 536.0,
+            "max": 562.0,
+            "ci95_low": 547.3149,
+            "ci95_high": 552.8851
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 176.4333,
+            "std": 40.9976,
+            "min": 112.0,
+            "max": 238.0,
+            "ci95_low": 161.7625,
+            "ci95_high": 191.1041
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2801,
+            "std": 0.032,
+            "min": 0.2464,
+            "max": 0.3261,
+            "ci95_low": 0.2687,
+            "ci95_high": 0.2916
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.4333,
+            "std": 0.5683,
+            "min": 4.0,
+            "max": 6.0,
+            "ci95_low": 4.23,
+            "ci95_high": 4.6367
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.177,
+            "std": 0.0032,
+            "min": 0.1606,
+            "max": 0.1788,
+            "ci95_low": 0.1759,
+            "ci95_high": 0.1781
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9045,
+            "std": 0.0028,
+            "min": 0.9,
+            "max": 0.9091,
+            "ci95_low": 0.9035,
+            "ci95_high": 0.9055
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 48.7667,
+            "std": 7.578,
+            "min": 17.0,
+            "max": 60.0,
+            "ci95_low": 46.0549,
+            "ci95_high": 51.4784
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 48.7667,
+            "std": 7.578,
+            "min": 17.0,
+            "max": 60.0,
+            "ci95_low": 46.0549,
+            "ci95_high": 51.4784
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 556.1667,
+            "std": 4.1112,
+            "min": 546.0,
+            "max": 562.0,
+            "ci95_low": 554.6955,
+            "ci95_high": 557.6379
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 206.4667,
+            "std": 10.8588,
+            "min": 174.0,
+            "max": 232.0,
+            "ci95_low": 202.5809,
+            "ci95_high": 210.3524
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.268,
+            "std": 0.0076,
+            "min": 0.2526,
+            "max": 0.2905,
+            "ci95_low": 0.2653,
+            "ci95_high": 0.2708
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 3.9667,
+            "std": 0.4138,
+            "min": 3.0,
+            "max": 5.0,
+            "ci95_low": 3.8186,
+            "ci95_high": 4.1148
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1767,
+            "std": 0.0034,
+            "min": 0.1587,
+            "max": 0.1784,
+            "ci95_low": 0.1755,
+            "ci95_high": 0.1779
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.9027,
+            "std": 0.0027,
+            "min": 0.8977,
+            "max": 0.9068,
+            "ci95_low": 0.9018,
+            "ci95_high": 0.9037
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 48.4333,
+            "std": 8.8656,
+            "min": 9.0,
+            "max": 61.0,
+            "ci95_low": 45.2608,
+            "ci95_high": 51.6058
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 48.4333,
+            "std": 8.8656,
+            "min": 9.0,
+            "max": 61.0,
+            "ci95_low": 45.2608,
+            "ci95_high": 51.6058
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 554.9,
+            "std": 4.1302,
+            "min": 543.0,
+            "max": 563.0,
+            "ci95_low": 553.422,
+            "ci95_high": 556.378
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 207.1333,
+            "std": 13.8881,
+            "min": 151.0,
+            "max": 234.0,
+            "ci95_low": 202.1636,
+            "ci95_high": 212.1031
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2656,
+            "std": 0.0079,
+            "min": 0.249,
+            "max": 0.2931,
+            "ci95_low": 0.2628,
+            "ci95_high": 0.2684
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.3333,
+            "std": 0.5467,
+            "min": 4.0,
+            "max": 6.0,
+            "ci95_low": 4.1377,
+            "ci95_high": 4.529
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      },
+      "0.4": {
+        "hybrid": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1743,
+            "std": 0.0057,
+            "min": 0.1496,
+            "max": 0.1773,
+            "ci95_low": 0.1722,
+            "ci95_high": 0.1763
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8954,
+            "std": 0.0029,
+            "min": 0.8909,
+            "max": 0.9023,
+            "ci95_low": 0.8943,
+            "ci95_high": 0.8964
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 38.7,
+            "std": 9.3113,
+            "min": 0.0,
+            "max": 50.0,
+            "ci95_low": 35.368,
+            "ci95_high": 42.032
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 38.7,
+            "std": 9.3113,
+            "min": 0.0,
+            "max": 50.0,
+            "ci95_low": 35.368,
+            "ci95_high": 42.032
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 29,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 553.4667,
+            "std": 3.391,
+            "min": 544.0,
+            "max": 559.0,
+            "ci95_low": 552.2532,
+            "ci95_high": 554.6801
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 203.8667,
+            "std": 16.5878,
+            "min": 142.0,
+            "max": 229.0,
+            "ci95_low": 197.9308,
+            "ci95_high": 209.8025
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.252,
+            "std": 0.0134,
+            "min": 0.2434,
+            "max": 0.3169,
+            "ci95_low": 0.2472,
+            "ci95_high": 0.2568
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 5.0,
+            "std": 0.5252,
+            "min": 4.0,
+            "max": 7.0,
+            "ci95_low": 4.8121,
+            "ci95_high": 5.1879
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "fixed": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1755,
+            "std": 0.0007,
+            "min": 0.1739,
+            "max": 0.1769,
+            "ci95_low": 0.1753,
+            "ci95_high": 0.1757
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8937,
+            "std": 0.0031,
+            "min": 0.8886,
+            "max": 0.9,
+            "ci95_low": 0.8926,
+            "ci95_high": 0.8948
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 39.5667,
+            "std": 4.191,
+            "min": 29.0,
+            "max": 48.0,
+            "ci95_low": 38.0669,
+            "ci95_high": 41.0664
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 39.5667,
+            "std": 4.191,
+            "min": 29.0,
+            "max": 48.0,
+            "ci95_low": 38.0669,
+            "ci95_high": 41.0664
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 540.8333,
+            "std": 4.1447,
+            "min": 531.0,
+            "max": 548.0,
+            "ci95_low": 539.3502,
+            "ci95_high": 542.3165
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 187.7,
+            "std": 9.8196,
+            "min": 170.0,
+            "max": 213.0,
+            "ci95_low": 184.1861,
+            "ci95_high": 191.2139
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.26,
+            "std": 0.0046,
+            "min": 0.2512,
+            "max": 0.2694,
+            "ci95_low": 0.2584,
+            "ci95_high": 0.2617
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 6.1333,
+            "std": 0.5713,
+            "min": 5.0,
+            "max": 8.0,
+            "ci95_low": 5.9289,
+            "ci95_high": 6.3378
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        },
+        "soft": {
+          "run_count": 30,
+          "detection_rate": {
+            "count": 30,
+            "mean": 0.1766,
+            "std": 0.0006,
+            "min": 0.1754,
+            "max": 0.1777,
+            "ci95_low": 0.1764,
+            "ci95_high": 0.1768
+          },
+          "tracking_ratio": {
+            "count": 30,
+            "mean": 0.8991,
+            "std": 0.0027,
+            "min": 0.8955,
+            "max": 0.9045,
+            "ci95_low": 0.8981,
+            "ci95_high": 0.9001
+          },
+          "discovered_victim_ratio": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "track_loss_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_count": {
+            "count": 30,
+            "mean": 39.6333,
+            "std": 4.7306,
+            "min": 30.0,
+            "max": 49.0,
+            "ci95_low": 37.9405,
+            "ci95_high": 41.3261
+          },
+          "handoff_success_count": {
+            "count": 30,
+            "mean": 39.6333,
+            "std": 4.7306,
+            "min": 30.0,
+            "max": 49.0,
+            "ci95_low": 37.9405,
+            "ci95_high": 41.3261
+          },
+          "handoff_failure_count": {
+            "count": 30,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0
+          },
+          "handoff_success_rate": {
+            "count": 30,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0,
+            "ci95_low": 1.0,
+            "ci95_high": 1.0
+          },
+          "messages_sent": {
+            "count": 30,
+            "mean": 552.8333,
+            "std": 3.4349,
+            "min": 542.0,
+            "max": 558.0,
+            "ci95_low": 551.6042,
+            "ci95_high": 554.0625
+          },
+          "messages_delivered": {
+            "count": 30,
+            "mean": 206.8333,
+            "std": 8.3546,
+            "min": 196.0,
+            "max": 231.0,
+            "ci95_low": 203.8437,
+            "ci95_high": 209.823
+          },
+          "coverage_mean": {
+            "count": 30,
+            "mean": 0.2535,
+            "std": 0.01,
+            "min": 0.2386,
+            "max": 0.2709,
+            "ci95_low": 0.25,
+            "ci95_high": 0.2571
+          },
+          "first_detection_step": {
+            "count": 30,
+            "mean": 4.9667,
+            "std": 0.5561,
+            "min": 4.0,
+            "max": 7.0,
+            "ci95_low": 4.7677,
+            "ci95_high": 5.1656
+          },
+          "reacquisition_delay_mean": null,
+          "runs_with_detection": 30
+        }
+      }
+    }
+  },
+  "config": {
+    "seeds": [
+      3,
+      7,
+      11,
+      15,
+      19,
+      23,
+      27,
+      31,
+      35,
+      39,
+      43,
+      47,
+      51,
+      55,
+      59,
+      63,
+      67,
+      71,
+      75,
+      79,
+      83,
+      87,
+      91,
+      95,
+      99,
+      103,
+      107,
+      111,
+      115,
+      119
+    ],
+    "n_seeds": 30,
+    "scenarios": [
+      "default",
+      "medium",
+      "hard"
+    ],
+    "gps_noise_levels": [
+      0.0,
+      2.0,
+      5.0
+    ],
+    "detection_decay_levels": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "actuation_delay_levels": [
+      0.0,
+      0.2,
+      0.4
+    ]
+  }
+}

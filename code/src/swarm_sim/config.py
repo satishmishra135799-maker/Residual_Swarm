@@ -28,3 +28,7 @@ class SimulationConfig:
     policy_mode: str = "belief_sparse_comm"
     coverage_decay: float = 0.96
     handoff_success_window: int = 6
+    packet_drop_rate: float = 0.0
+    gps_noise_std: float = 0.0
+    detection_decay_rate: float = 0.0
+    actuation_delay: float = 0.0

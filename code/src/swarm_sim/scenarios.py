@@ -37,6 +37,24 @@ def scenario_config(name: str, policy_mode: str) -> SimulationConfig:
             victim_separation=0.42,
             victim_spawn_margin=0.24,
         )
+    if name == "extreme":
+        return SimulationConfig(
+            policy_mode=policy_mode,
+            num_uavs=8,
+            num_victims=6,
+            sensing_radius=55.0,
+            communication_radius=110.0,
+            drift_x=9.0,
+            drift_y=6.0,
+            steps=150,
+            seed=17,
+            victim_drift_spread=3.0,
+            message_confidence_threshold=0.05,
+            message_change_threshold=0.008,
+            message_stale_steps=2,
+            victim_separation=0.55,
+            victim_spawn_margin=0.32,
+        )
     if name == "swarm_heavy":
         return SimulationConfig(
             policy_mode=policy_mode,

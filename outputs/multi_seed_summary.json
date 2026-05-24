@@ -1,0 +1,880 @@
+{
+  "default": {
+    "sweep_only": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.1675,
+        "std": 0.0249,
+        "min": 0.1219,
+        "max": 0.1969,
+        "ci95_low": 0.1521,
+        "ci95_high": 0.1829
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.4788,
+        "std": 0.0033,
+        "min": 0.475,
+        "max": 0.4813,
+        "ci95_low": 0.4768,
+        "ci95_high": 0.4808
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.2438,
+        "std": 0.0122,
+        "min": 0.2324,
+        "max": 0.2708,
+        "ci95_low": 0.2362,
+        "ci95_high": 0.2513
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 1.3,
+        "std": 0.483,
+        "min": 1.0,
+        "max": 2.0,
+        "ci95_low": 1.0006,
+        "ci95_high": 1.5994
+      },
+      "reacquisition_delay_mean": null,
+      "runs_with_detection": 10
+    },
+    "frontier_cover": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.2514,
+        "std": 0.0154,
+        "min": 0.2344,
+        "max": 0.2672,
+        "ci95_low": 0.2419,
+        "ci95_high": 0.2609
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.8744,
+        "std": 0.0046,
+        "min": 0.8688,
+        "max": 0.8812,
+        "ci95_low": 0.8715,
+        "ci95_high": 0.8772
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.3916,
+        "std": 0.023,
+        "min": 0.3644,
+        "max": 0.4198,
+        "ci95_low": 0.3773,
+        "ci95_high": 0.4059
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 3.6,
+        "std": 0.6992,
+        "min": 3.0,
+        "max": 5.0,
+        "ci95_low": 3.1666,
+        "ci95_high": 4.0334
+      },
+      "reacquisition_delay_mean": null,
+      "runs_with_detection": 10
+    },
+    "hybrid_frontier_belief": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.3066,
+        "std": 0.0441,
+        "min": 0.2359,
+        "max": 0.3375,
+        "ci95_low": 0.2792,
+        "ci95_high": 0.3339
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.7119,
+        "std": 0.1928,
+        "min": 0.4688,
+        "max": 0.8875,
+        "ci95_low": 0.5924,
+        "ci95_high": 0.8314
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 241.5,
+        "std": 1.8409,
+        "min": 239.0,
+        "max": 244.0,
+        "ci95_low": 240.359,
+        "ci95_high": 242.641
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 298.0,
+        "std": 85.5466,
+        "min": 196.0,
+        "max": 450.0,
+        "ci95_low": 244.9777,
+        "ci95_high": 351.0223
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.3366,
+        "std": 0.0284,
+        "min": 0.2588,
+        "max": 0.3587,
+        "ci95_low": 0.3189,
+        "ci95_high": 0.3542
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 3.6,
+        "std": 0.6992,
+        "min": 3.0,
+        "max": 5.0,
+        "ci95_low": 3.1666,
+        "ci95_high": 4.0334
+      },
+      "reacquisition_delay_mean": null,
+      "runs_with_detection": 10
+    },
+    "belief_sparse_comm": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.3486,
+        "std": 0.0027,
+        "min": 0.3438,
+        "max": 0.3516,
+        "ci95_low": 0.3469,
+        "ci95_high": 0.3503
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.4788,
+        "std": 0.0033,
+        "min": 0.475,
+        "max": 0.4813,
+        "ci95_low": 0.4768,
+        "ci95_high": 0.4808
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 249.1,
+        "std": 1.4491,
+        "min": 247.0,
+        "max": 250.0,
+        "ci95_low": 248.2018,
+        "ci95_high": 249.9982
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 461.0,
+        "std": 3.559,
+        "min": 456.0,
+        "max": 464.0,
+        "ci95_low": 458.7941,
+        "ci95_high": 463.2059
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.1719,
+        "std": 0.0036,
+        "min": 0.1661,
+        "max": 0.1779,
+        "ci95_low": 0.1697,
+        "ci95_high": 0.1742
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 1.3,
+        "std": 0.483,
+        "min": 1.0,
+        "max": 2.0,
+        "ci95_low": 1.0006,
+        "ci95_high": 1.5994
+      },
+      "reacquisition_delay_mean": null,
+      "runs_with_detection": 10
+    }
+  },
+  "medium": {
+    "sweep_only": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.1088,
+        "std": 0.046,
+        "min": 0.0653,
+        "max": 0.207,
+        "ci95_low": 0.0803,
+        "ci95_high": 0.1373
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.4761,
+        "std": 0.1646,
+        "min": 0.3193,
+        "max": 0.6386,
+        "ci95_low": 0.3741,
+        "ci95_high": 0.5782
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.1,
+        "std": 0.3162,
+        "min": 0.0,
+        "max": 1.0,
+        "ci95_low": -0.096,
+        "ci95_high": 0.296
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.2449,
+        "std": 0.0051,
+        "min": 0.2347,
+        "max": 0.2515,
+        "ci95_low": 0.2418,
+        "ci95_high": 0.248
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 2.2,
+        "std": 0.4216,
+        "min": 2.0,
+        "max": 3.0,
+        "ci95_low": 1.9387,
+        "ci95_high": 2.4613
+      },
+      "reacquisition_delay_mean": null,
+      "runs_with_detection": 10
+    },
+    "frontier_cover": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.1794,
+        "std": 0.0311,
+        "min": 0.1558,
+        "max": 0.2393,
+        "ci95_low": 0.1601,
+        "ci95_high": 0.1986
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.6116,
+        "std": 0.0055,
+        "min": 0.6035,
+        "max": 0.6175,
+        "ci95_low": 0.6082,
+        "ci95_high": 0.6149
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.9,
+        "std": 1.5239,
+        "min": 0.0,
+        "max": 4.0,
+        "ci95_low": -0.0445,
+        "ci95_high": 1.8445
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.405,
+        "std": 0.0046,
+        "min": 0.3979,
+        "max": 0.4122,
+        "ci95_low": 0.4022,
+        "ci95_high": 0.4079
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 4.6,
+        "std": 0.5164,
+        "min": 4.0,
+        "max": 5.0,
+        "ci95_low": 4.2799,
+        "ci95_high": 4.9201
+      },
+      "reacquisition_delay_mean": {
+        "count": 3,
+        "mean": 4.6667,
+        "std": 3.7859,
+        "min": 2.0,
+        "max": 9.0,
+        "ci95_low": 0.3825,
+        "ci95_high": 8.9509
+      },
+      "runs_with_detection": 10
+    },
+    "hybrid_frontier_belief": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.2546,
+        "std": 0.0407,
+        "min": 0.1923,
+        "max": 0.3172,
+        "ci95_low": 0.2294,
+        "ci95_high": 0.2798
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.6074,
+        "std": 0.1897,
+        "min": 0.3123,
+        "max": 0.8842,
+        "ci95_low": 0.4898,
+        "ci95_high": 0.725
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.2,
+        "std": 0.6325,
+        "min": 0.0,
+        "max": 2.0,
+        "ci95_low": -0.192,
+        "ci95_high": 0.592
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 351.8,
+        "std": 26.0845,
+        "min": 322.0,
+        "max": 376.0,
+        "ci95_low": 335.6327,
+        "ci95_high": 367.9673
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 735.2,
+        "std": 177.1075,
+        "min": 586.0,
+        "max": 1037.0,
+        "ci95_low": 625.4276,
+        "ci95_high": 844.9724
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.2997,
+        "std": 0.0459,
+        "min": 0.2331,
+        "max": 0.365,
+        "ci95_low": 0.2712,
+        "ci95_high": 0.3281
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 4.6,
+        "std": 0.5164,
+        "min": 4.0,
+        "max": 5.0,
+        "ci95_low": 4.2799,
+        "ci95_high": 4.9201
+      },
+      "reacquisition_delay_mean": {
+        "count": 1,
+        "mean": 5.0,
+        "std": 0.0,
+        "min": 5.0,
+        "max": 5.0,
+        "ci95_low": 5.0,
+        "ci95_high": 5.0
+      },
+      "runs_with_detection": 10
+    },
+    "belief_sparse_comm": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.2128,
+        "std": 0.0327,
+        "min": 0.1881,
+        "max": 0.2961,
+        "ci95_low": 0.1925,
+        "ci95_high": 0.233
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.4551,
+        "std": 0.1631,
+        "min": 0.3193,
+        "max": 0.6667,
+        "ci95_low": 0.354,
+        "ci95_high": 0.5562
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 0.2,
+        "std": 0.6325,
+        "min": 0.0,
+        "max": 2.0,
+        "ci95_low": -0.192,
+        "ci95_high": 0.592
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 318.6,
+        "std": 1.5776,
+        "min": 317.0,
+        "max": 322.0,
+        "ci95_low": 317.6222,
+        "ci95_high": 319.5778
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 585.7,
+        "std": 4.7152,
+        "min": 578.0,
+        "max": 590.0,
+        "ci95_low": 582.7775,
+        "ci95_high": 588.6225
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.2311,
+        "std": 0.0202,
+        "min": 0.2075,
+        "max": 0.2647,
+        "ci95_low": 0.2186,
+        "ci95_high": 0.2436
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 2.1,
+        "std": 0.3162,
+        "min": 2.0,
+        "max": 3.0,
+        "ci95_low": 1.904,
+        "ci95_high": 2.296
+      },
+      "reacquisition_delay_mean": {
+        "count": 1,
+        "mean": 5.0,
+        "std": 0.0,
+        "min": 5.0,
+        "max": 5.0,
+        "ci95_low": 5.0,
+        "ci95_high": 5.0
+      },
+      "runs_with_detection": 10
+    }
+  },
+  "hard": {
+    "sweep_only": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.126,
+        "std": 0.0195,
+        "min": 0.0928,
+        "max": 0.158,
+        "ci95_low": 0.1139,
+        "ci95_high": 0.1381
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.4309,
+        "std": 0.1504,
+        "min": 0.2659,
+        "max": 0.7068,
+        "ci95_low": 0.3377,
+        "ci95_high": 0.5241
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 9.8,
+        "std": 5.3707,
+        "min": 1.0,
+        "max": 20.0,
+        "ci95_low": 6.4712,
+        "ci95_high": 13.1288
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.1667,
+        "std": 0.0099,
+        "min": 0.1573,
+        "max": 0.1888,
+        "ci95_low": 0.1606,
+        "ci95_high": 0.1729
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 3.8,
+        "std": 0.7888,
+        "min": 3.0,
+        "max": 5.0,
+        "ci95_low": 3.3111,
+        "ci95_high": 4.2889
+      },
+      "reacquisition_delay_mean": {
+        "count": 10,
+        "mean": 4.7056,
+        "std": 7.0566,
+        "min": 1.0,
+        "max": 24.0,
+        "ci95_low": 0.3318,
+        "ci95_high": 9.0793
+      },
+      "runs_with_detection": 10
+    },
+    "frontier_cover": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.1928,
+        "std": 0.032,
+        "min": 0.1432,
+        "max": 0.2413,
+        "ci95_low": 0.173,
+        "ci95_high": 0.2127
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.6843,
+        "std": 0.1585,
+        "min": 0.35,
+        "max": 0.8977,
+        "ci95_low": 0.5861,
+        "ci95_high": 0.7826
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 8.1,
+        "std": 5.646,
+        "min": 2.0,
+        "max": 19.0,
+        "ci95_low": 4.6005,
+        "ci95_high": 11.5995
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.3069,
+        "std": 0.0176,
+        "min": 0.2905,
+        "max": 0.3348,
+        "ci95_low": 0.296,
+        "ci95_high": 0.3177
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 7.1,
+        "std": 0.8756,
+        "min": 6.0,
+        "max": 8.0,
+        "ci95_low": 6.5573,
+        "ci95_high": 7.6427
+      },
+      "reacquisition_delay_mean": {
+        "count": 10,
+        "mean": 7.5652,
+        "std": 7.1136,
+        "min": 1.0,
+        "max": 20.5,
+        "ci95_low": 3.1561,
+        "ci95_high": 11.9742
+      },
+      "runs_with_detection": 10
+    },
+    "hybrid_frontier_belief": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.2162,
+        "std": 0.0377,
+        "min": 0.1477,
+        "max": 0.2508,
+        "ci95_low": 0.1928,
+        "ci95_high": 0.2395
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.6225,
+        "std": 0.1893,
+        "min": 0.3068,
+        "max": 0.8159,
+        "ci95_low": 0.5052,
+        "ci95_high": 0.7398
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 8.3,
+        "std": 5.7359,
+        "min": 1.0,
+        "max": 21.0,
+        "ci95_low": 4.7449,
+        "ci95_high": 11.8551
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 450.3,
+        "std": 34.8968,
+        "min": 390.0,
+        "max": 499.0,
+        "ci95_low": 428.6707,
+        "ci95_high": 471.9293
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 735.4,
+        "std": 179.042,
+        "min": 512.0,
+        "max": 992.0,
+        "ci95_low": 624.4286,
+        "ci95_high": 846.3714
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.29,
+        "std": 0.0288,
+        "min": 0.2485,
+        "max": 0.3382,
+        "ci95_low": 0.2722,
+        "ci95_high": 0.3079
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 7.2,
+        "std": 0.9189,
+        "min": 6.0,
+        "max": 8.0,
+        "ci95_low": 6.6304,
+        "ci95_high": 7.7696
+      },
+      "reacquisition_delay_mean": {
+        "count": 10,
+        "mean": 2.4753,
+        "std": 1.487,
+        "min": 1.0,
+        "max": 5.0,
+        "ci95_low": 1.5536,
+        "ci95_high": 3.3969
+      },
+      "runs_with_detection": 10
+    },
+    "belief_sparse_comm": {
+      "run_count": 10,
+      "detection_rate": {
+        "count": 10,
+        "mean": 0.1775,
+        "std": 0.0316,
+        "min": 0.1292,
+        "max": 0.2299,
+        "ci95_low": 0.1579,
+        "ci95_high": 0.1971
+      },
+      "tracking_ratio": {
+        "count": 10,
+        "mean": 0.4625,
+        "std": 0.1437,
+        "min": 0.3045,
+        "max": 0.7045,
+        "ci95_low": 0.3734,
+        "ci95_high": 0.5516
+      },
+      "track_loss_count": {
+        "count": 10,
+        "mean": 10.9,
+        "std": 7.9505,
+        "min": 2.0,
+        "max": 24.0,
+        "ci95_low": 5.9722,
+        "ci95_high": 15.8278
+      },
+      "messages_sent": {
+        "count": 10,
+        "mean": 518.8,
+        "std": 22.1349,
+        "min": 489.0,
+        "max": 543.0,
+        "ci95_low": 505.0806,
+        "ci95_high": 532.5194
+      },
+      "messages_delivered": {
+        "count": 10,
+        "mean": 882.4,
+        "std": 122.8198,
+        "min": 673.0,
+        "max": 1042.0,
+        "ci95_low": 806.2755,
+        "ci95_high": 958.5245
+      },
+      "coverage_mean": {
+        "count": 10,
+        "mean": 0.1367,
+        "std": 0.0141,
+        "min": 0.1197,
+        "max": 0.1678,
+        "ci95_low": 0.1279,
+        "ci95_high": 0.1454
+      },
+      "first_detection_step": {
+        "count": 10,
+        "mean": 4.0,
+        "std": 0.8165,
+        "min": 3.0,
+        "max": 5.0,
+        "ci95_low": 3.4939,
+        "ci95_high": 4.5061
+      },
+      "reacquisition_delay_mean": {
+        "count": 10,
+        "mean": 4.4497,
+        "std": 6.7782,
+        "min": 1.0,
+        "max": 23.3333,
+        "ci95_low": 0.2485,
+        "ci95_high": 8.6509
+      },
+      "runs_with_detection": 10
+    }
+  }
+}
